@@ -1,0 +1,101 @@
+.items {
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  box-shadow: 0 10px 20px 0; }
+
+.item {
+  position: relative;
+  background: #403f3f;
+  overflow: hidden; }
+  .item::after {
+    content: '';
+    position: absolute;
+    display: block;
+    background: inherit;
+    opacity: 0.9;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    transform: scale(2) translateX(-75%) translateY(-75%) rotate(-28deg);
+    transition: transform 3s cubic-bezier(0.1, 1, 0.25, 1); }
+  .item:hover:after {
+    transform: scale(2) translateX(0) translateY(0) rotate(-28deg); }
+  .item:hover .item-image {
+    transform: scale(1.1); }
+  .item:hover .item-text {
+    opacity: 1;
+    transform: translateY(0); }
+  .item-image {
+    height: auto;
+    transform: translateZ(0);
+    display: block;
+    transition: transform 750ms cubic-bezier(0.1, 1, 0.25, 1); }
+  .item-image:before {
+    content: '';
+    display: block;
+    padding-top: 75%;
+    overflow: hidden; }
+  .item-image img {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: auto;
+    line-height: 0; }
+  .item-text {
+    position: absolute;
+    top: 0;
+    left: 0;
+    bottom: 0;
+    right: 0;
+    opacity: 0;
+    text-align: center;
+    z-index: 1;
+    color: white;
+    transform: translateY(-20%);
+    transition: opacity 500ms cubic-bezier(0.1, 1, 0.25, 1), transform 500ms cubic-bezier(0.2, 1, 0.25, 1);
+    transition-delay: 375ms; }
+  .item-text-wrap {
+    position: absolute;
+    width: 100%;
+    top: 50%;
+    transform: translateY(-50%); }
+  .item-text-title {
+    font-size: 1.4rem;
+    padding: 0 1rem;
+    margin: 5px 0 0 0; }
+  .item-text-category {
+    text-transform: uppercase;
+    font-size: 0.95rem;
+    opacity: 0.7;
+    margin: 0;
+    padding: 10px; }
+
+.TGauto {
+  color: #be481d;
+  font-size: 1.7rem; }
+
+.dice {
+  color: #1eb6b1; }
+
+.florida {
+  color: #6a74e6; }
+
+.comedian {
+  color: #51a195; }
+
+.SW {
+  color: #f7cc31; }
+
+.calc {
+  color: rgba(158, 219, 134, 0.94); }
+
+.tindog {
+  color: #b05caf; }
+
+.bay {
+  color: #d49d3e; }
+
+.port {
+  color: rgba(246, 234, 13, 0.999); }
