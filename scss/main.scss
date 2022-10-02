@@ -327,7 +327,7 @@ a.weblinks:hover {
       padding: 2rem;
       line-height: 2;
       background-size: cover;
-      height: 85%;
+      height: 100%;
     }
 
     .dog-text {
@@ -337,15 +337,18 @@ a.weblinks:hover {
     }
 
     .bio-img {
-      margin-top: 6%;
-
+      margin-top: 2.5%;
     }
 
     .award-1 .fas,
     .award-2 .fas,
     .award-3 .fas {
       color: $main-color;
-      margin: 1.3rem;
+      margin-top: 5rem;
+    }
+
+    .about {
+      height: 91%;
     }
   }
 
@@ -389,7 +392,7 @@ a.weblinks:hover {
 
 .btn-about {
   border-radius: 10px;
-  margin: 6% 5%;
+  margin: 10%;
 }
 
 //contact page

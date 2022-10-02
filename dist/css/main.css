@@ -393,7 +393,7 @@ a.weblinks:hover {
   padding: 2rem;
   line-height: 2;
   background-size: cover;
-  height: 85%; }
+  height: 100%; }
 
 #about-a .dog-text {
   font-size: 1.5rem;
@@ -401,13 +401,16 @@ a.weblinks:hover {
   padding: 3px; }
 
 #about-a .bio-img {
-  margin-top: 6%; }
+  margin-top: 2.5%; }
 
 #about-a .award-1 .fas,
 #about-a .award-2 .fas,
 #about-a .award-3 .fas {
   color: #01d449;
-  margin: 1.3rem; }
+  margin-top: 5rem; }
+
+#about-a .about {
+  height: 91%; }
 
 #about-b .progress {
   overflow: hidden;
@@ -435,7 +438,7 @@ a.weblinks:hover {
 
 .btn-about {
   border-radius: 10px;
-  margin: 6% 5%; }
+  margin: 10%; }
 
 #contact-a .text-fields {
   display: grid;
