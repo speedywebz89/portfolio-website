@@ -90,7 +90,7 @@ a.weblinks:hover {
   display: flex;
   align-items: center;
   justify-content: space-between;
-  background-color: rgb(73, 113, 73);
+  background-color: rgb(23, 23, 23);
   opacity: 0.7;
   height: 60px;
   width: 100%;
@@ -147,7 +147,7 @@ a.weblinks:hover {
 #header {
   &-home {
 
-    background: rgba(0, 0, 0, 0.5)$bg-image 10% 25% / 100% no-repeat fixed;
+    background: rgba(0, 0, 0, 0.4)$bg-image 10% 50% / 100% no-repeat fixed;
     background-blend-mode: darken;
     background-size: cover;
     height: 650px;
@@ -336,7 +336,7 @@ a.weblinks:hover {
       padding: 3px;
     }
 
-    .bio-img {
+    .bio-img { 
       margin-top: 2.5%;
     }
 
