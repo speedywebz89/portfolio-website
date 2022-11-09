@@ -8,7 +8,7 @@
 //buttons
 %btn-shared {
   display: inline-block;
-  padding: 0.8rem 2rem;
+  padding: 0.1rem 3rem;
   transition: all 0.5s;
   cursor: pointer;
 
@@ -25,6 +25,12 @@
     @extend %btn-shared;
     color: #333;
     background-color: $light-color;
+    border-radius:3px;
+    padding: 0.1rem 2rem;
+    border-top: 1px solid grey;
+    border-right:1px solid grey;
+    border-bottom: 2px solid grey;
+    border-left: 2px solid grey;
   }
 
   &-dark {
@@ -40,7 +46,7 @@ a[class^='btn-']:hover,
 input[class^='btn-']:hover {
   background-color: $main-color;
   color: rgb(5, 5, 5);
-  font-style:italic;
+  font-style: italic;
 }
 
 //background
@@ -67,12 +73,11 @@ input[class^='btn-']:hover {
   }
 }
 
-
 .lead {
-  font-size: 1.3rem;
+  font-size: 1.2rem;
   margin-bottom: 3rem;
+  font-family: 'Karla', sans-serif;
 }
-
 
 .text-center {
   text-align: center;
@@ -120,7 +125,7 @@ input[class^='btn-']:hover {
 }
 
 .section-title {
-  font-size: 2rem;
+  font-size: 2.5rem;
   display: block;
   padding-bottom: 0.5rem;
   text-align: center;

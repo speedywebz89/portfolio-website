@@ -29,21 +29,51 @@ h1,
 h2,
 h3,
 h4 {
-  font-family: 'Libre Baskerville', sans-serif;
+  font-family: 'Karla', sans-serif;
   color: white;
 }
 
 h4 {
   margin-bottom: 40px;
-  font-family: 'League Spartan' sans-serif;
+  font-family: 'Karla', sans-serif;
+  font-weight:500;
+  word-spacing: 5;
 }
 
 p {
-  font-family: 'League Spartan' sans-serif;
+  font-family: 'Montserrat', sans-serif;
   color: white;
-  font-size: 1.2rem;
-  line-height: 2.5;
+  font-size: 1rem;
+  text-align: center;
+  padding: 0 50px 0 50px;
+}
 
+.about-txt{
+  font-size:0.9rem;
+  line-height:1.6;
+  word-spacing:2px;
+}
+
+.about-p{
+  padding-bottom:15px;
+}
+
+.top-process{
+  font-family: 'Montserrat', sans-serif;
+  line-height:2.2;
+  font-size:0.9rem;
+  padding: 0px 5px;
+  margin: 0 auto;
+}
+
+.icon-a{
+  font-size:0.9rem;
+  margin-top:15px;
+  text-align:center;
+  line-height:1.5rem;
+  word-spacing:1px;
+  padding-right:.5rem;
+  padding-left: .5rem;
 }
 
 img {
@@ -55,7 +85,7 @@ button {
   padding: 7px;
   margin: 0 auto;
   border-radius: 7px;
-  font-family: 'League Spartan' sans-serif;
+  font-family: 'Montserrat', sans-serif;
   font-weight: bold;
 }
 
@@ -70,7 +100,7 @@ button {
 .text-primary {
   font-family: 'Dawning of a New Day', cursive;
   margin-left: 20px;
-  font-size: 2rem;
+  font-size: 1.7rem;
 }
 
 .weblinks {
@@ -86,11 +116,12 @@ a.weblinks:hover {
 
 
 
+
 .navbar {
   display: flex;
   align-items: center;
   justify-content: space-between;
-  background-color: rgb(23, 23, 23);
+  background-color: rgb(82, 82, 82);
   opacity: 0.7;
   height: 60px;
   width: 100%;
@@ -112,12 +143,15 @@ a.weblinks:hover {
     text-decoration: none;
     color: rgb(255, 255, 255);
     text-transform: uppercase;
-    border-bottom: 3px transparent solid;
+    font-family: 'Karla', sans-serif;
+    border-bottom: 1px transparent solid;
     padding-bottom: 1rem;
     transition: border-color 0.6s;
 
     &:hover {
       font-style: italic;
+      color: rgb(142, 238, 142);
+      opacity: none;
       font-size: 1.1rem;
     }
 
@@ -129,7 +163,7 @@ a.weblinks:hover {
   }
 
   .nav-heading {
-    font-family: 'League Spartan' sans-serif;
+    font-family: 'Montserrat', sans-serif;
     margin-top: 10px;
     color: white;
   }
@@ -147,38 +181,41 @@ a.weblinks:hover {
 #header {
   &-home {
 
-    background: rgba(0, 0, 0, 0.4)$bg-image 10% 50% / 100% no-repeat fixed;
+    background: rgba(0, 0, 0, 0.1)$bg-image 30% 55% / 100% no-repeat fixed;
     background-blend-mode: darken;
     background-size: cover;
-    height: 650px;
+    height: 615px;
     color: white;
 
 
 
 
-    //header text
+    //header text-content
 
     .header-content {
       text-align: center;
       padding: 4%;
-      margin-top: 100px;
+      margin-top: 75px;
 
 
       h1 {
-        font-size: 2.8rem;
-        line-height: 4.2;
+        font-size: 2.95rem;
+        margin-top:5rem;
       }
 
       .btn-pro {
         text-decoration: underline;
       }
 
-      .btn-light {
-        border-radius: 10px;
-      }
-
       .txt-type {
         color: $main-color;
+      }
+
+      .specialize {
+        font-size: 0.99rem;
+        color:rgb(244, 244, 248);
+        margin-bottom: 3rem;
+        font-family: 'Montserrat', sans-serif;
       }
     }
   }
@@ -186,11 +223,12 @@ a.weblinks:hover {
   // Header inner
 
   &-inner {
-    background: rgba(0, 0, 0, 0.3)$bg-image 50% 60% / 100% no-repeat fixed;
+    background: rgba(0, 0, 0, 0.2)$bg-image 50% 60% / 100% no-repeat fixed;
     background-blend-mode: darken;
     background-size: cover;
-    height: 5rem;
+    height: 4.5rem;
     border-bottom: 3px solid $main-color;
+    margin-top: 0 auto;
   }
 }
 
@@ -262,6 +300,11 @@ a.weblinks:hover {
 
       //process-step
 
+      .design{
+        font-size:0.8rem;
+        padding:5px;
+      }
+
       &-step {
         position: absolute;
         top: 0;
@@ -323,11 +366,18 @@ a.weblinks:hover {
 
     .bio {
       grid-area: bio;
-      border-left: 3px solid $main-color;
-      padding: 2rem;
+      border-left: 2px solid $main-color;
+      padding: 1rem;
       line-height: 2;
       background-size: cover;
       height: 100%;
+      
+      .btn-about {
+        border-radius: 5px;
+        padding: 0.1rem 3rem;
+        margin: 5% 0% 1% 0%;
+      }
+      
     }
 
     .dog-text {
@@ -337,14 +387,16 @@ a.weblinks:hover {
     }
 
     .bio-img { 
-      margin-top: 2.5%;
+      position:relative;
+      height:100%;
+      width:100%;
     }
 
     .award-1 .fas,
     .award-2 .fas,
     .award-3 .fas {
       color: $main-color;
-      margin-top: 5rem;
+      margin-top: 3rem;
     }
 
     .about {
@@ -362,13 +414,6 @@ a.weblinks:hover {
       margin: auto;
       text-align: center;
       border-radius: 5px;
-
-      div {
-        height: 100%;
-        color: white;
-        text-align: center;
-        background: $main-color;
-      }
     }
   }
 
@@ -390,10 +435,6 @@ a.weblinks:hover {
   }
 }
 
-.btn-about {
-  border-radius: 10px;
-  margin: 10%;
-}
 
 //contact page
 
@@ -461,6 +502,7 @@ a.weblinks:hover {
     }
   }
 }
+
 
 //footer
 

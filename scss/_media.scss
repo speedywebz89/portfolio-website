@@ -12,28 +12,36 @@
     height: 30rem;
 
     .header-content {
-      padding-top: 1rem;
       margin-top: 3rem;
-    }
 
-    .lead {
-      font-size: 1.3rem;
-    }
-
-    .header-content {
       h1 {
-        font-size: 1.8rem;
+        font-size: 2.3rem;
+        margin-top: 40px;
+      }
+
+      .specialize {
+        font-size: 0.7rem;
+        margin-top: -40px;
       }
     }
   }
+
+  .lead {
+    font-size: 1.04rem;
+  }
+
+  .specialize {
+    font-size: 1rem;
+    padding-top: 2.5rem;
+  }
+
+  .about-p{
+    font-size:0.8rem;
+    padding-bottom:40px;
+  }
+
 }
 
-@media (max-width: 920px) {
-  p {
-    font-size: 1rem;
-    line-height: 2;
-  }
-}
 
 
 
@@ -48,32 +56,10 @@
       }
     }
   }
-}
 
-@media (max-width: 605px) {
-  #about {
-    &-c {
-
-      //display: none;
-      .logo2 {
-        height: 30px;
-        width: 5.5%;
-      }
-    }
-  }
-}
-
-@media (max-width: 440px) {
-  #about {
-    &-c {
-
-      //display: none;
-      .logo2 {
-        height: 20px;
-        width: 5%;
-      }
-    }
-
+  .specialize {
+    font-size: 1rem;
+    padding-top: 2.5rem;
   }
 }
 
@@ -94,13 +80,9 @@
 
   #header {
     &-home {
-      height: 10rem;
+      height: 30rem;
       border-bottom: 3px solid $main-color;
-      background-position: 20% 30%;
-
-      .header-content {
-        display: none;
-      }
+      background-position: 20% 10%;
 
       .navbar {
         flex-direction: column;
@@ -118,11 +100,30 @@
           font-size: 2rem;
         }
       }
+
+      .header-content {
+        margin-top: 5rem;
+
+        h1 {
+          font-size: 1.7rem;
+          margin-top: 70px;
+        }
+
+      }
+      
+      .text-primary {
+        display: none;
+      }
+
     }
 
     &-inner {
       height: 10rem;
     }
+  }
+  .specialize {
+    font-size: 1rem;
+    padding-top: 2.5rem;
   }
 
   // Stack Grid Columns
@@ -159,7 +160,7 @@
   // About
   #about {
     &-a {
-      .about-info { 
+      .about-info {
         grid-template-areas:
           'bioimage'
           'bio'
@@ -216,16 +217,67 @@
   }
 }
 
+@media (max-width: 605px) {
+  #about {
+    &-c {
+
+      //display: none;
+      .logo2 {
+        height: 30px;
+        width: 5.5%;
+      }
+    }
+  }
+  .specialize {
+    font-size: 1rem;
+    padding-top: 2.5rem;
+  }
+}
+
 // Landscape
 @media (max-height: 580px) {
   #header-home {
     .header-content {
-      padding-top: 3rem;
+      padding-top: 1rem;
+
+      h1 {
+        font-size: 1.3rem;
+      }
+
+      .specialize {
+        font-size: 0.7rem;
+      }
     }
   }
 }
 
-@media (max-height: 330px) {
+@media (max-width: 440px) {
+  #about {
+    &-c {
+
+      //display: none;
+      .logo2 {
+        height: 20px;
+        width: 5%;
+      }
+    }
+  }
+
+  .lead{
+    font-size:0.9rem;
+    padding:none;
+  }
+
+  .my-tech{
+    font-size:1.6rem;
+  }
+
+  .design-p{
+    font-size:2rem;
+  }
+}
+
+@media (max-width: 330px) {
   #header-home {
     .header-content {
       h1 {

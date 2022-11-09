@@ -6,17 +6,23 @@
 
 .btn-main, .btn-light, .btn-dark {
   display: inline-block;
-  padding: 0.8rem 2rem;
+  padding: 0.1rem 3rem;
   transition: all 0.5s;
   cursor: pointer; }
 
 .btn-main {
   color: #333;
-  background-color: #01d449; }
+  background-color: #6df755; }
 
 .btn-light {
   color: #333;
-  background-color: white; }
+  background-color: white;
+  border-radius: 3px;
+  padding: 0.1rem 2rem;
+  border-top: 1px solid grey;
+  border-right: 1px solid grey;
+  border-bottom: 2px solid grey;
+  border-left: 2px solid grey; }
 
 .btn-dark {
   color: #f4f4f4;
@@ -25,13 +31,13 @@
 button[class^='btn-']:hover,
 a[class^='btn-']:hover,
 input[class^='btn-']:hover {
-  background-color: #01d449;
+  background-color: #6df755;
   color: #050505;
   font-style: italic; }
 
 .bg-main {
-  background: #01d449;
-  color: white; }
+  background: #6df755;
+  color: black; }
 
 .bg-dark {
   background: #403f3f;
@@ -46,8 +52,9 @@ input[class^='btn-']:hover {
   color: black; }
 
 .lead {
-  font-size: 1.3rem;
-  margin-bottom: 3rem; }
+  font-size: 1.2rem;
+  margin-bottom: 3rem;
+  font-family: 'Karla', sans-serif; }
 
 .text-center {
   text-align: center; }
@@ -77,7 +84,7 @@ input[class^='btn-']:hover {
   margin: 4rem 0; }
 
 .section-title {
-  font-size: 2rem;
+  font-size: 2.5rem;
   display: block;
   padding-bottom: 0.5rem;
   text-align: center;
@@ -87,7 +94,7 @@ input[class^='btn-']:hover {
 .bottom-line {
   height: 2px;
   width: 4rem;
-  background: #01d449;
+  background: #6df755;
   display: block;
   margin: 0 auto 1rem auto; }
 
@@ -212,18 +219,45 @@ h1,
 h2,
 h3,
 h4 {
-  font-family: 'Libre Baskerville', sans-serif;
+  font-family: 'Karla', sans-serif;
   color: white; }
 
 h4 {
   margin-bottom: 40px;
-  font-family: 'League Spartan' sans-serif; }
+  font-family: 'Karla', sans-serif;
+  font-weight: 500;
+  word-spacing: 5; }
 
 p {
-  font-family: 'League Spartan' sans-serif;
+  font-family: 'Montserrat', sans-serif;
   color: white;
-  font-size: 1.2rem;
-  line-height: 2.5; }
+  font-size: 1rem;
+  text-align: center;
+  padding: 0 50px 0 50px; }
+
+.about-txt {
+  font-size: 0.9rem;
+  line-height: 1.6;
+  word-spacing: 2px; }
+
+.about-p {
+  padding-bottom: 15px; }
+
+.top-process {
+  font-family: 'Montserrat', sans-serif;
+  line-height: 2.2;
+  font-size: 0.9rem;
+  padding: 0px 5px;
+  margin: 0 auto; }
+
+.icon-a {
+  font-size: 0.9rem;
+  margin-top: 15px;
+  text-align: center;
+  line-height: 1.5rem;
+  word-spacing: 1px;
+  padding-right: .5rem;
+  padding-left: .5rem; }
 
 img {
   width: 100%; }
@@ -233,7 +267,7 @@ button {
   padding: 7px;
   margin: 0 auto;
   border-radius: 7px;
-  font-family: 'League Spartan' sans-serif;
+  font-family: 'Montserrat', sans-serif;
   font-weight: bold; }
 
 .navbar.top {
@@ -245,21 +279,21 @@ button {
 .text-primary {
   font-family: 'Dawning of a New Day', cursive;
   margin-left: 20px;
-  font-size: 2rem; }
+  font-size: 1.7rem; }
 
 .weblinks {
   font-size: 0.9rem;
   color: #f6eded; }
 
 a.weblinks:hover {
-  color: #01d449;
+  color: #6df755;
   font-size: 1rem; }
 
 .navbar {
   display: flex;
   align-items: center;
   justify-content: space-between;
-  background-color: #171717;
+  background-color: #525252;
   opacity: 0.7;
   height: 60px;
   width: 100%;
@@ -274,47 +308,54 @@ a.weblinks:hover {
     text-decoration: none;
     color: white;
     text-transform: uppercase;
-    border-bottom: 3px transparent solid;
+    font-family: 'Karla', sans-serif;
+    border-bottom: 1px transparent solid;
     padding-bottom: 1rem;
     transition: border-color 0.6s; }
     .navbar a:hover {
       font-style: italic;
+      color: #8eee8e;
+      opacity: none;
       font-size: 1.1rem; }
     .navbar a:current {
-      color: #01d449; }
+      color: #6df755; }
   .navbar .nav-heading {
-    font-family: 'League Spartan' sans-serif;
+    font-family: 'Montserrat', sans-serif;
     margin-top: 10px;
     color: white; }
   .navbar .navbar.top {
     background: transparent; }
 
 #header-home {
-  background: rgba(0, 0, 0, 0.4) url("../img/showcase.jpg") 10% 50%/100% no-repeat fixed;
+  background: rgba(0, 0, 0, 0.1) url("../img/showcase.jpg") 30% 55%/100% no-repeat fixed;
   background-blend-mode: darken;
   background-size: cover;
-  height: 650px;
+  height: 615px;
   color: white; }
   #header-home .header-content {
     text-align: center;
     padding: 4%;
-    margin-top: 100px; }
+    margin-top: 75px; }
     #header-home .header-content h1 {
-      font-size: 2.8rem;
-      line-height: 4.2; }
+      font-size: 2.95rem;
+      margin-top: 5rem; }
     #header-home .header-content .btn-pro {
       text-decoration: underline; }
-    #header-home .header-content .btn-light {
-      border-radius: 10px; }
     #header-home .header-content .txt-type {
-      color: #01d449; }
+      color: #6df755; }
+    #header-home .header-content .specialize {
+      font-size: 0.99rem;
+      color: #f4f4f8;
+      margin-bottom: 3rem;
+      font-family: 'Montserrat', sans-serif; }
 
 #header-inner {
-  background: rgba(0, 0, 0, 0.3) url("../img/showcase.jpg") 50% 60%/100% no-repeat fixed;
+  background: rgba(0, 0, 0, 0.2) url("../img/showcase.jpg") 50% 60%/100% no-repeat fixed;
   background-blend-mode: darken;
   background-size: cover;
-  height: 5rem;
-  border-bottom: 3px solid #01d449; }
+  height: 4.5rem;
+  border-bottom: 3px solid #6df755;
+  margin-top: 0 auto; }
 
 #home-a .specials {
   margin-top: 3rem;
@@ -323,7 +364,7 @@ a.weblinks:hover {
   grid-template-columns: repeat(4, 1fr); }
 
 #home-a .fas {
-  color: #01d449;
+  color: #6df755;
   padding-bottom: 0.4rem; }
 
 #home-b .stats {
@@ -349,12 +390,15 @@ a.weblinks:hover {
   grid-template-columns: repeat(4, 1fr);
   grid-gap: 1.5rem;
   text-align: center; }
+  #home-c .process .design {
+    font-size: 0.8rem;
+    padding: 5px; }
   #home-c .process-step {
     position: absolute;
     top: 0;
     right: 0;
     font-size: 28px;
-    background: #01d449;
+    background: #6df755;
     border-radius: 50%;
     height: 15px;
     width: 15px;
@@ -373,7 +417,7 @@ a.weblinks:hover {
     position: relative;
     transition: all 1s; }
     #home-c .process-icon:hover {
-      background: #01d449;
+      background: #6df755;
       width: 85px;
       height: 85px;
       line-height: 85px; }
@@ -389,11 +433,15 @@ a.weblinks:hover {
 
 #about-a .bio {
   grid-area: bio;
-  border-left: 3px solid #01d449;
-  padding: 2rem;
+  border-left: 2px solid #6df755;
+  padding: 1rem;
   line-height: 2;
   background-size: cover;
   height: 100%; }
+  #about-a .bio .btn-about {
+    border-radius: 5px;
+    padding: 0.1rem 3rem;
+    margin: 5% 0% 1% 0%; }
 
 #about-a .dog-text {
   font-size: 1.5rem;
@@ -401,13 +449,15 @@ a.weblinks:hover {
   padding: 3px; }
 
 #about-a .bio-img {
-  margin-top: 2.5%; }
+  position: relative;
+  height: 100%;
+  width: 100%; }
 
 #about-a .award-1 .fas,
 #about-a .award-2 .fas,
 #about-a .award-3 .fas {
-  color: #01d449;
-  margin-top: 5rem; }
+  color: #6df755;
+  margin-top: 3rem; }
 
 #about-a .about {
   height: 91%; }
@@ -420,11 +470,6 @@ a.weblinks:hover {
   margin: auto;
   text-align: center;
   border-radius: 5px; }
-  #about-b .progress div {
-    height: 100%;
-    color: white;
-    text-align: center;
-    background: #01d449; }
 
 #about-c .about-logo {
   display: grid;
@@ -435,10 +480,6 @@ a.weblinks:hover {
   width: 6%;
   height: 2%;
   margin: 5% 3%; }
-
-.btn-about {
-  border-radius: 10px;
-  margin: 10%; }
 
 #contact-a .text-fields {
   display: grid;
@@ -470,7 +511,7 @@ a.weblinks:hover {
 #contact-c h1 {
   text-align: center;
   font-size: 3rem;
-  color: #01d449;
+  color: #6df755;
   font-family: 'League Spartan' sans-serif;
   font-style: italic; }
 
@@ -494,7 +535,7 @@ a.weblinks:hover {
       text-align: center;
       padding: 0.5rem; }
       #main-footer .footer-content .social .fab:hover {
-        background: #01d449; }
+        background: #6df755; }
     #main-footer .footer-content .fa-linkedin {
       color: #0e455e;
       background: #f09433;
@@ -528,32 +569,29 @@ a.weblinks:hover {
   #header-home {
     height: 30rem; }
     #header-home .header-content {
-      padding-top: 1rem;
       margin-top: 3rem; }
-    #header-home .lead {
-      font-size: 1.3rem; }
-    #header-home .header-content h1 {
-      font-size: 1.8rem; } }
-
-@media (max-width: 920px) {
-  p {
+      #header-home .header-content h1 {
+        font-size: 2.3rem;
+        margin-top: 40px; }
+      #header-home .header-content .specialize {
+        font-size: 0.7rem;
+        margin-top: -40px; }
+  .lead {
+    font-size: 1.04rem; }
+  .specialize {
     font-size: 1rem;
-    line-height: 2; } }
+    padding-top: 2.5rem; }
+  .about-p {
+    font-size: 0.8rem;
+    padding-bottom: 40px; } }
 
 @media (max-width: 745px) {
   #about-c .logo2 {
     height: 45px;
-    width: 5.5%; } }
-
-@media (max-width: 605px) {
-  #about-c .logo2 {
-    height: 30px;
-    width: 5.5%; } }
-
-@media (max-width: 440px) {
-  #about-c .logo2 {
-    height: 20px;
-    width: 5%; } }
+    width: 5.5%; }
+  .specialize {
+    font-size: 1rem;
+    padding-top: 2.5rem; } }
 
 @media (max-width: 640px) {
   #navbar {
@@ -566,11 +604,9 @@ a.weblinks:hover {
     #navbar li {
       padding: 1rem; }
   #header-home {
-    height: 10rem;
-    border-bottom: 3px solid #01d449;
-    background-position: 20% 30%; }
-    #header-home .header-content {
-      display: none; }
+    height: 30rem;
+    border-bottom: 3px solid #6df755;
+    background-position: 20% 10%; }
     #header-home .navbar {
       flex-direction: column;
       align-items: center;
@@ -582,8 +618,18 @@ a.weblinks:hover {
         padding: 1rem; }
       #header-home .navbar .text-primary {
         font-size: 2rem; }
+    #header-home .header-content {
+      margin-top: 5rem; }
+      #header-home .header-content h1 {
+        font-size: 1.7rem;
+        margin-top: 70px; }
+    #header-home .text-primary {
+      display: none; }
   #header-inner {
     height: 10rem; }
+  .specialize {
+    font-size: 1rem;
+    padding-top: 2.5rem; }
   #home-a .specials,
   #home-b .stats,
   #home-c .process,
@@ -620,10 +666,34 @@ a.weblinks:hover {
       padding: 1rem;
       height: 5rem; } }
 
+@media (max-width: 605px) {
+  #about-c .logo2 {
+    height: 30px;
+    width: 5.5%; }
+  .specialize {
+    font-size: 1rem;
+    padding-top: 2.5rem; } }
+
 @media (max-height: 580px) {
   #header-home .header-content {
-    padding-top: 3rem; } }
+    padding-top: 1rem; }
+    #header-home .header-content h1 {
+      font-size: 1.3rem; }
+    #header-home .header-content .specialize {
+      font-size: 0.7rem; } }
 
-@media (max-height: 330px) {
+@media (max-width: 440px) {
+  #about-c .logo2 {
+    height: 20px;
+    width: 5%; }
+  .lead {
+    font-size: 0.9rem;
+    padding: none; }
+  .my-tech {
+    font-size: 1.6rem; }
+  .design-p {
+    font-size: 2rem; } }
+
+@media (max-width: 330px) {
   #header-home .header-content h1 {
     font-size: 2rem; } }
