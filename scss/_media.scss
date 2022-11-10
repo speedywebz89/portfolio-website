@@ -5,6 +5,48 @@
     font-size: 1rem;
     line-height: 2;
   }
+
+  #about-c {
+    .container-tech {
+      height: 400px;
+      width: 100%;
+    }
+
+    .logo2 {
+      width: 100%;
+      height: 100%;
+    }
+  }
+}
+
+@media (max-width: 1399px) {
+  #about-c {
+    .container-tech {
+      height: 510px;
+      width: 100%;
+    }
+
+    .logo2 {
+      width: 100%;
+      height: 100%;
+    }
+  }
+
+}
+
+@media (max-width: 1128px) {
+  #about-c {
+    .container-tech {
+      height: 425px;
+      width: 100%;
+    }
+
+    .logo2 {
+      width: 100%;
+      height: 100%;
+    }
+  }
+
 }
 
 @media (max-width: 920px) {
@@ -35,25 +77,51 @@
     padding-top: 2.5rem;
   }
 
-  .about-p{
-    font-size:0.8rem;
-    padding-bottom:40px;
+  .about-p {
+    font-size: 0.8rem;
+    padding-bottom: 40px;
+  }
+
+  #about-c {
+    .container-tech {
+      height: 350px;
+      width: 100%;
+    }
+
+    .logo2 {
+      width: 100%;
+      height: 100%;
+    }
+  }
+
+}
+
+@media (max-width: 829px) {
+  #about-c {
+    .container-tech {
+      height: 290px;
+      width: 100%;
+    }
+
+    .logo2 {
+      width: 100%;
+      height: 100%;
+    }
   }
 
 }
 
 
-
-
 @media (max-width: 745px) {
-  #about {
-    &-c {
+  #about-c {
+    .container-tech {
+      height: 265px;
+      width: 100%;
+    }
 
-      //display: none;
-      .logo2 {
-        height: 45px;
-        width: 5.5%;
-      }
+    .logo2 {
+      width: 100%;
+      height: 100%;
     }
   }
 
@@ -110,7 +178,7 @@
         }
 
       }
-      
+
       .text-primary {
         display: none;
       }
@@ -121,6 +189,7 @@
       height: 10rem;
     }
   }
+
   .specialize {
     font-size: 1rem;
     padding-top: 2.5rem;
@@ -171,6 +240,20 @@
     }
   }
 
+  #about-c {
+    .container-tech {
+      height: 220px;
+      width: 100%;
+    }
+
+    .logo2 {
+      width: 100%;
+      height: 100%;
+    }
+  }
+
+
+
   // Contact
   #contact {
     &-a {
@@ -217,31 +300,17 @@
   }
 }
 
-@media (max-width: 605px) {
-  #about {
-    &-c {
 
-      //display: none;
-      .logo2 {
-        height: 30px;
-        width: 5.5%;
-      }
-    }
-  }
-  .specialize {
-    font-size: 1rem;
-    padding-top: 2.5rem;
-  }
-}
 
 // Landscape
-@media (max-height: 580px) {
+@media (max-width: 580px) {
   #header-home {
     .header-content {
       padding-top: 1rem;
 
       h1 {
-        font-size: 1.3rem;
+        font-size: 1.5rem;
+        margin-top: 6rem;
       }
 
       .specialize {
@@ -249,40 +318,149 @@
       }
     }
   }
-}
 
-@media (max-width: 440px) {
+  .my-tech {
+    font-size: 1.8rem;
+  }
+
+  .about-txt {
+    padding: 1px 3px 10px 3px;
+  }
+
   #about {
     &-c {
 
-      //display: none;
       .logo2 {
-        height: 20px;
-        width: 5%;
+        width: 100%;
+        height: 100%;
+      }
+
+      .container-tech {
+        height: 195px;
+        width: 100%;
+      }
+    }
+  }
+}
+
+@media (max-width: 440px) {
+
+  #header-home {
+    height: 31.5rem;
+  }
+
+  #about {
+    &-c {
+
+      .logo2 {
+        width: 100%;
+        height: 100%;
+      }
+
+      .container-tech {
+        height: 150px;
+        width: 100%;
       }
     }
   }
 
-  .lead{
-    font-size:0.9rem;
-    padding:none;
+  .lead {
+    font-size: 0.9rem;
+    padding: none;
   }
 
-  .my-tech{
-    font-size:1.6rem;
+  .my-tech {
+    font-size: 1.6rem;
   }
 
-  .design-p{
-    font-size:2rem;
+  .design-p {
+    font-size: 2rem;
+  }
+
+  .about-txt {
+    padding: 1px;
+  }
+
+  .lead {
+    padding: 1px;
+    font-size: 1rem;
   }
 }
 
-@media (max-width: 330px) {
+@media (max-width: 430px) {
+  #header-home {
+    .header-content {
+
+
+      h1 {
+        font-size: 1.1rem;
+        //margin-bottom: 3px;
+        //padding-top: 10px;
+      }
+
+      .specialize {
+        padding: 1px;
+        margin-top: 0.5rem;
+      }
+    }
+
+    .logo2 {
+      width: 100%;
+      height: 100%;
+    }
+
+    .container-tech {
+      height: 175px;
+    }
+  }
+
+  .lead {
+    padding: 1px;
+  }
+
+  h4 {
+    font-weight: 400;
+    font-size: 1rem;
+    padding-bottom: 3px;
+  }
+
+  .about-txt {
+    padding: 1px 1px 10px 1px;
+  }
+}
+
+
+@media (max-width: 380px) {
   #header-home {
     .header-content {
       h1 {
-        font-size: 2rem;
+        font-size: 110%;
+        padding: none;
+        margin-top: 3.5rem;
+
       }
+    }
+
+    .specialize {
+      margin-top: 0.2rem;
+    }
+
+
+  }
+}
+
+@media (max-width: 350px) {
+  #header-home {
+    .header-content {
+      h1 {
+        font-size: 100%;
+        margin-top: 7rem;
+        margin-bottom: 3rem;
+      }
+    }
+
+    .specialize {
+      display: none;
     }
   }
 }

@@ -36,7 +36,7 @@ h4 {
 h4 {
   margin-bottom: 40px;
   font-family: 'Karla', sans-serif;
-  font-weight:500;
+  font-weight: 500;
   word-spacing: 5;
 }
 
@@ -48,31 +48,32 @@ p {
   padding: 0 50px 0 50px;
 }
 
-.about-txt{
-  font-size:0.9rem;
-  line-height:1.6;
-  word-spacing:2px;
+
+.about-txt {
+  font-size: 0.9rem;
+  line-height: 1.6;
+  word-spacing: 2px;
 }
 
-.about-p{
-  padding-bottom:15px;
+.about-p {
+  padding-bottom: 15px;
 }
 
-.top-process{
+.top-process {
   font-family: 'Montserrat', sans-serif;
-  line-height:2.2;
-  font-size:0.9rem;
+  line-height: 2.2;
+  font-size: 0.9rem;
   padding: 0px 5px;
   margin: 0 auto;
 }
 
-.icon-a{
-  font-size:0.9rem;
-  margin-top:15px;
-  text-align:center;
-  line-height:1.5rem;
-  word-spacing:1px;
-  padding-right:.5rem;
+.icon-a {
+  font-size: 0.9rem;
+  margin-top: 15px;
+  text-align: center;
+  line-height: 1.5rem;
+  word-spacing: 1px;
+  padding-right: .5rem;
   padding-left: .5rem;
 }
 
@@ -181,10 +182,10 @@ a.weblinks:hover {
 #header {
   &-home {
 
-    background: rgba(0, 0, 0, 0.1)$bg-image 30% 55% / 100% no-repeat fixed;
+    background: rgba(0, 0, 0, 0.4)$bg-image 30% 7% / 100% no-repeat fixed;
     background-blend-mode: darken;
     background-size: cover;
-    height: 615px;
+    height: 600px;
     color: white;
 
 
@@ -200,7 +201,7 @@ a.weblinks:hover {
 
       h1 {
         font-size: 2.95rem;
-        margin-top:5rem;
+        margin-top: 5rem;
       }
 
       .btn-pro {
@@ -213,7 +214,7 @@ a.weblinks:hover {
 
       .specialize {
         font-size: 0.99rem;
-        color:rgb(244, 244, 248);
+        color: rgb(244, 244, 248);
         margin-bottom: 3rem;
         font-family: 'Montserrat', sans-serif;
       }
@@ -289,6 +290,7 @@ a.weblinks:hover {
 
   }
 
+
   //home section C
 
   &-c {
@@ -300,9 +302,9 @@ a.weblinks:hover {
 
       //process-step
 
-      .design{
-        font-size:0.8rem;
-        padding:5px;
+      .design {
+        font-size: 0.8rem;
+        padding: 5px;
       }
 
       &-step {
@@ -371,13 +373,13 @@ a.weblinks:hover {
       line-height: 2;
       background-size: cover;
       height: 100%;
-      
+
       .btn-about {
         border-radius: 5px;
         padding: 0.1rem 3rem;
         margin: 5% 0% 1% 0%;
       }
-      
+
     }
 
     .dog-text {
@@ -386,10 +388,10 @@ a.weblinks:hover {
       padding: 3px;
     }
 
-    .bio-img { 
-      position:relative;
-      height:100%;
-      width:100%;
+    .bio-img {
+      position: relative;
+      height: 100%;
+      width: 100%;
     }
 
     .award-1 .fas,
@@ -426,12 +428,25 @@ a.weblinks:hover {
       grid-gap: 2rem;
     }
 
-    img {
-      width: 6%;
+    .logo2 {
+      width: 100%;
+      height: 450px;
+    }
+
+    .container-tech {
+      height: 415px;
+      border-top: solid 1px rgb(63, 255, 60);
+      border-right: solid 3px rgb(63, 255, 60);
+
+
+    }
+
+    /*img {
+     width: 6%;
       height: 2%;
       margin: 5% 3%;
 
-    }
+    }*/
   }
 }
 
