@@ -12,7 +12,7 @@
 
 .btn-main {
   color: #333;
-  background-color: #c8c66a; }
+  background-color: #33ae5a; }
 
 .btn-light {
   color: #333;
@@ -31,13 +31,13 @@
 button[class^='btn-']:hover,
 a[class^='btn-']:hover,
 input[class^='btn-']:hover {
-  background-color: #c8c66a;
+  background-color: #33ae5a;
   color: #050505;
   font-style: italic; }
 
 .bg-main {
-  background: #c8c66a;
-  color: black; }
+  background: #33ae5a;
+  color: white; }
 
 .bg-dark {
   background: #403f3f;
@@ -94,7 +94,7 @@ input[class^='btn-']:hover {
 .bottom-line {
   height: 2px;
   width: 4rem;
-  background: #c8c66a;
+  background: #33ae5a;
   display: block;
   margin: 0 auto 1rem auto; }
 
@@ -219,17 +219,17 @@ h1,
 h2,
 h3,
 h4 {
-  font-family: 'Karla', sans-serif;
+  font-family: "Karla", sans-serif;
   color: white; }
 
 h4 {
   margin-bottom: 40px;
-  font-family: 'Karla', sans-serif;
+  font-family: "Karla", sans-serif;
   font-weight: 500;
   word-spacing: 5; }
 
 p {
-  font-family: 'Montserrat', sans-serif;
+  font-family: "Montserrat", sans-serif;
   color: white;
   font-size: 1rem;
   text-align: center;
@@ -244,7 +244,7 @@ p {
   padding-bottom: 15px; }
 
 .top-process {
-  font-family: 'Montserrat', sans-serif;
+  font-family: "Montserrat", sans-serif;
   line-height: 2.2;
   font-size: 0.9rem;
   padding: 0px 5px;
@@ -256,8 +256,8 @@ p {
   text-align: center;
   line-height: 1.5rem;
   word-spacing: 1px;
-  padding-right: .5rem;
-  padding-left: .5rem; }
+  padding-right: 0.5rem;
+  padding-left: 0.5rem; }
 
 img {
   width: 100%; }
@@ -267,7 +267,7 @@ button {
   padding: 7px;
   margin: 0 auto;
   border-radius: 7px;
-  font-family: 'Montserrat', sans-serif;
+  font-family: "Montserrat", sans-serif;
   font-weight: bold; }
 
 .navbar.top {
@@ -277,7 +277,7 @@ button {
   margin: 0 -25px; }
 
 .text-primary {
-  font-family: 'Dawning of a New Day', cursive;
+  font-family: "Dawning of a New Day", cursive;
   margin-left: 20px;
   font-size: 1.7rem; }
 
@@ -286,7 +286,7 @@ button {
   color: #f6eded; }
 
 a.weblinks:hover {
-  color: #c8c66a;
+  color: #33ae5a;
   font-size: 1rem; }
 
 .navbar {
@@ -308,26 +308,27 @@ a.weblinks:hover {
     text-decoration: none;
     color: white;
     text-transform: uppercase;
-    font-family: 'Karla', sans-serif;
+    font-family: "Karla", sans-serif;
     border-bottom: 1px transparent solid;
     padding-bottom: 1rem;
     transition: border-color 0.6s; }
     .navbar a:hover {
       font-style: italic;
-      color: #e2df38;
+      color: #33ae5a;
       opacity: none;
-      font-size: 1.1rem; }
+      font-size: 1.1rem;
+      font-weight: 800; }
     .navbar a:current {
-      color: #c8c66a; }
+      color: #33ae5a; }
   .navbar .nav-heading {
-    font-family: 'Montserrat', sans-serif;
+    font-family: "Montserrat", sans-serif;
     margin-top: 10px;
     color: white; }
   .navbar .navbar.top {
     background: transparent; }
 
 #header-home {
-  background: rgba(0, 0, 0, 0.4) url("../img/showcase.jpg") 30% 7%/100% no-repeat fixed;
+  background: rgba(0, 0, 0, 0.5) url("../img/showcase.jpg") 30% 7%/100% no-repeat fixed;
   background-blend-mode: darken;
   background-size: cover;
   height: 600px;
@@ -342,19 +343,19 @@ a.weblinks:hover {
     #header-home .header-content .btn-pro {
       text-decoration: underline; }
     #header-home .header-content .txt-type {
-      color: #c8c66a; }
+      color: #33ae5a; }
     #header-home .header-content .specialize {
       font-size: 0.99rem;
       color: #f4f4f8;
       margin-bottom: 3rem;
-      font-family: 'Montserrat', sans-serif; }
+      font-family: "Montserrat", sans-serif; }
 
 #header-inner {
   background: rgba(0, 0, 0, 0.2) url("../img/showcase.jpg") 50% 60%/100% no-repeat fixed;
   background-blend-mode: darken;
   background-size: cover;
   height: 4.5rem;
-  border-bottom: 3px solid #c8c66a;
+  border-bottom: 3px solid #33ae5a;
   margin-top: 0 auto; }
 
 #home-a .specials {
@@ -364,7 +365,7 @@ a.weblinks:hover {
   grid-template-columns: repeat(4, 1fr); }
 
 #home-a .fas {
-  color: #c8c66a;
+  color: #33ae5a;
   padding-bottom: 0.4rem; }
 
 #home-b .stats {
@@ -398,7 +399,7 @@ a.weblinks:hover {
     top: 0;
     right: 0;
     font-size: 28px;
-    background: #c8c66a;
+    background: #33ae5a;
     border-radius: 50%;
     height: 15px;
     width: 15px;
@@ -417,7 +418,7 @@ a.weblinks:hover {
     position: relative;
     transition: all 1s; }
     #home-c .process-icon:hover {
-      background: #c8c66a;
+      background: #33ae5a;
       width: 85px;
       height: 85px;
       line-height: 85px; }
@@ -428,12 +429,12 @@ a.weblinks:hover {
 
 #about-a .about-info {
   display: grid;
-  grid-template-areas: 'bioimage bio bio';
+  grid-template-areas: "bioimage bio bio";
   grid-gap: 1.2rem; }
 
 #about-a .bio {
   grid-area: bio;
-  border-left: 2px solid #c8c66a;
+  border-left: 2px solid #33ae5a;
   padding: 1rem;
   line-height: 2;
   background-size: cover;
@@ -456,7 +457,7 @@ a.weblinks:hover {
 #about-a .award-1 .fas,
 #about-a .award-2 .fas,
 #about-a .award-3 .fas {
-  color: #c8c66a;
+  color: #33ae5a;
   margin-top: 3rem; }
 
 #about-a .about {
@@ -478,21 +479,17 @@ a.weblinks:hover {
       margin: 5% 3%;
 
     }*/ }
-  #about-c .about-logo {
-    display: grid;
-    grid-template-columns: repeat(4, 1fr);
-    grid-gap: 2rem; }
   #about-c .logo2 {
     width: 100%;
-    height: 450px; }
+    height: 340px; }
   #about-c .container-tech {
-    height: 415px;
+    height: 315px;
     border-top: solid 1px #3fff3c;
     border-right: solid 3px #3fff3c; }
 
 #contact-a .text-fields {
   display: grid;
-  grid-template-areas: 'name email' 'subject phone' 'message message';
+  grid-template-areas: "name email" "subject phone" "message message";
   grid-gap: 1.2rems;
   margin-bottom: 1.3rem; }
   #contact-a .text-fields .name-input {
@@ -509,7 +506,7 @@ a.weblinks:hover {
   #contact-a .text-fields .text-input {
     padding: 0.5rem 1rem; }
 
-#contact-a button[type='submit'] {
+#contact-a button[type="submit"] {
   width: 50%; }
 
 #contact-b .contact-info {
@@ -520,8 +517,8 @@ a.weblinks:hover {
 #contact-c h1 {
   text-align: center;
   font-size: 3rem;
-  color: #c8c66a;
-  font-family: 'League Spartan' sans-serif;
+  color: #33ae5a;
+  font-family: "League Spartan" sans-serif;
   font-style: italic; }
 
 #main-footer {
@@ -544,7 +541,7 @@ a.weblinks:hover {
       text-align: center;
       padding: 0.5rem; }
       #main-footer .footer-content .social .fab:hover {
-        background: #c8c66a; }
+        background: #33ae5a; }
     #main-footer .footer-content .fa-linkedin {
       color: #0e455e;
       background: #f09433;
@@ -557,7 +554,7 @@ a.weblinks:hover {
       background: -webkit-linear-gradient(45deg, #f09433 0%, #e6683c 25%, #dc2743 50%, #cc2366 75%, #bc1888 100%);
       background: linear-gradient(45deg, #f09433 0%, #e6683c 25%, #dc2743 50%, #cc2366 75%, #bc1888 100%); }
     #main-footer .footer-content .fa-twitter {
-      color: #1D9BF0;
+      color: #1d9bf0;
       background: #a7d4ec;
       background: -moz-linear-gradient(45deg, #f8f8f7 0%, #81d2f7 25%, #a8d6f9 50%, #ebedef 75%, #ddeaed 100%);
       background: -webkit-linear-gradient(45deg, #fafaf9 0%, #84cced 25%, #9fccee 50%, #ccdbe6 75%, #c1e0e7 100%);
@@ -653,7 +650,7 @@ a.weblinks:hover {
       padding: 1rem; }
   #header-home {
     height: 30rem;
-    border-bottom: 3px solid #c8c66a;
+    border-bottom: 3px solid #33ae5a;
     background-position: 20% 10%; }
     #header-home .navbar {
       flex-direction: column;
@@ -694,7 +691,7 @@ a.weblinks:hover {
   #home-b .stats div {
     padding: 2rem 0 1rem 0; }
   #about-a .about-info {
-    grid-template-areas: 'bioimage' 'bio' 'aw1' 'aw2' 'aw3'; }
+    grid-template-areas: "bioimage" "bio" "aw1" "aw2" "aw3"; }
   #about-c .container-tech {
     height: 220px;
     width: 100%; }
@@ -702,7 +699,7 @@ a.weblinks:hover {
     width: 100%;
     height: 100%; }
   #contact-a .text-fields {
-    grid-template-areas: 'name' 'subject' 'email' 'phone' 'message'; }
+    grid-template-areas: "name" "subject" "email" "phone" "message"; }
   #contact-b div {
     margin-bottom: 1rem;
     padding-bottom: 1rem;

@@ -31,7 +31,6 @@
       height: 100%;
     }
   }
-
 }
 
 @media (max-width: 1128px) {
@@ -46,7 +45,6 @@
       height: 100%;
     }
   }
-
 }
 
 @media (max-width: 920px) {
@@ -93,7 +91,6 @@
       height: 100%;
     }
   }
-
 }
 
 @media (max-width: 829px) {
@@ -108,9 +105,7 @@
       height: 100%;
     }
   }
-
 }
-
 
 @media (max-width: 745px) {
   #about-c {
@@ -176,13 +171,11 @@
           font-size: 1.7rem;
           margin-top: 70px;
         }
-
       }
 
       .text-primary {
         display: none;
       }
-
     }
 
     &-inner {
@@ -231,11 +224,11 @@
     &-a {
       .about-info {
         grid-template-areas:
-          'bioimage'
-          'bio'
-          'aw1'
-          'aw2'
-          'aw3';
+          "bioimage"
+          "bio"
+          "aw1"
+          "aw2"
+          "aw3";
       }
     }
   }
@@ -252,18 +245,16 @@
     }
   }
 
-
-
   // Contact
   #contact {
     &-a {
       .text-fields {
         grid-template-areas:
-          'name'
-          'subject'
-          'email'
-          'phone'
-          'message';
+          "name"
+          "subject"
+          "email"
+          "phone"
+          "message";
       }
     }
 
@@ -300,8 +291,6 @@
   }
 }
 
-
-
 // Landscape
 @media (max-width: 580px) {
   #header-home {
@@ -329,7 +318,6 @@
 
   #about {
     &-c {
-
       .logo2 {
         width: 100%;
         height: 100%;
@@ -344,14 +332,12 @@
 }
 
 @media (max-width: 440px) {
-
   #header-home {
     height: 31.5rem;
   }
 
   #about {
     &-c {
-
       .logo2 {
         width: 100%;
         height: 100%;
@@ -390,8 +376,6 @@
 @media (max-width: 430px) {
   #header-home {
     .header-content {
-
-
       h1 {
         font-size: 1.1rem;
         //margin-bottom: 3px;
@@ -429,7 +413,6 @@
   }
 }
 
-
 @media (max-width: 380px) {
   #header-home {
     .header-content {
@@ -437,15 +420,12 @@
         font-size: 110%;
         padding: none;
         margin-top: 3.5rem;
-
       }
     }
 
     .specialize {
       margin-top: 0.2rem;
     }
-
-
   }
 }
 

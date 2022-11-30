@@ -1,18 +1,18 @@
 // variables
 
-$website-width:100%;
-$main-color: #c8c66a;
-$light-color:white;
+$website-width: 100%;
+$main-color: #33ae5a;
+$light-color: white;
 $medium-color: #ccc;
-$dark-color:#403f3f;
-$bg-image: url('../img/showcase.jpg');
+$dark-color: #403f3f;
+$bg-image: url("../img/showcase.jpg");
 
 //text color #ad974f
 
-@function set-text-color($color){
-  @if(lightness($color) > 50){
+@function set-text-color($color) {
+  @if (lightness($color) > 50) {
     @return black;
-  }@else{
+  } @else {
     @return white;
   }
 }
