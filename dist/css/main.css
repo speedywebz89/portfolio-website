@@ -12,7 +12,7 @@
 
 .btn-main {
   color: #333;
-  background-color: #6df755; }
+  background-color: #c8c66a; }
 
 .btn-light {
   color: #333;
@@ -31,12 +31,12 @@
 button[class^='btn-']:hover,
 a[class^='btn-']:hover,
 input[class^='btn-']:hover {
-  background-color: #6df755;
+  background-color: #c8c66a;
   color: #050505;
   font-style: italic; }
 
 .bg-main {
-  background: #6df755;
+  background: #c8c66a;
   color: black; }
 
 .bg-dark {
@@ -94,7 +94,7 @@ input[class^='btn-']:hover {
 .bottom-line {
   height: 2px;
   width: 4rem;
-  background: #6df755;
+  background: #c8c66a;
   display: block;
   margin: 0 auto 1rem auto; }
 
@@ -286,7 +286,7 @@ button {
   color: #f6eded; }
 
 a.weblinks:hover {
-  color: #6df755;
+  color: #c8c66a;
   font-size: 1rem; }
 
 .navbar {
@@ -314,11 +314,11 @@ a.weblinks:hover {
     transition: border-color 0.6s; }
     .navbar a:hover {
       font-style: italic;
-      color: #8eee8e;
+      color: #e2df38;
       opacity: none;
       font-size: 1.1rem; }
     .navbar a:current {
-      color: #6df755; }
+      color: #c8c66a; }
   .navbar .nav-heading {
     font-family: 'Montserrat', sans-serif;
     margin-top: 10px;
@@ -342,7 +342,7 @@ a.weblinks:hover {
     #header-home .header-content .btn-pro {
       text-decoration: underline; }
     #header-home .header-content .txt-type {
-      color: #6df755; }
+      color: #c8c66a; }
     #header-home .header-content .specialize {
       font-size: 0.99rem;
       color: #f4f4f8;
@@ -354,7 +354,7 @@ a.weblinks:hover {
   background-blend-mode: darken;
   background-size: cover;
   height: 4.5rem;
-  border-bottom: 3px solid #6df755;
+  border-bottom: 3px solid #c8c66a;
   margin-top: 0 auto; }
 
 #home-a .specials {
@@ -364,7 +364,7 @@ a.weblinks:hover {
   grid-template-columns: repeat(4, 1fr); }
 
 #home-a .fas {
-  color: #6df755;
+  color: #c8c66a;
   padding-bottom: 0.4rem; }
 
 #home-b .stats {
@@ -398,7 +398,7 @@ a.weblinks:hover {
     top: 0;
     right: 0;
     font-size: 28px;
-    background: #6df755;
+    background: #c8c66a;
     border-radius: 50%;
     height: 15px;
     width: 15px;
@@ -417,7 +417,7 @@ a.weblinks:hover {
     position: relative;
     transition: all 1s; }
     #home-c .process-icon:hover {
-      background: #6df755;
+      background: #c8c66a;
       width: 85px;
       height: 85px;
       line-height: 85px; }
@@ -433,7 +433,7 @@ a.weblinks:hover {
 
 #about-a .bio {
   grid-area: bio;
-  border-left: 2px solid #6df755;
+  border-left: 2px solid #c8c66a;
   padding: 1rem;
   line-height: 2;
   background-size: cover;
@@ -456,7 +456,7 @@ a.weblinks:hover {
 #about-a .award-1 .fas,
 #about-a .award-2 .fas,
 #about-a .award-3 .fas {
-  color: #6df755;
+  color: #c8c66a;
   margin-top: 3rem; }
 
 #about-a .about {
@@ -520,7 +520,7 @@ a.weblinks:hover {
 #contact-c h1 {
   text-align: center;
   font-size: 3rem;
-  color: #6df755;
+  color: #c8c66a;
   font-family: 'League Spartan' sans-serif;
   font-style: italic; }
 
@@ -544,7 +544,7 @@ a.weblinks:hover {
       text-align: center;
       padding: 0.5rem; }
       #main-footer .footer-content .social .fab:hover {
-        background: #6df755; }
+        background: #c8c66a; }
     #main-footer .footer-content .fa-linkedin {
       color: #0e455e;
       background: #f09433;
@@ -653,7 +653,7 @@ a.weblinks:hover {
       padding: 1rem; }
   #header-home {
     height: 30rem;
-    border-bottom: 3px solid #6df755;
+    border-bottom: 3px solid #c8c66a;
     background-position: 20% 10%; }
     #header-home .navbar {
       flex-direction: column;
