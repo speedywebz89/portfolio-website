@@ -384,12 +384,16 @@ a.weblinks:hover {
       overflow: hidden;
       //height:40px;
       background: $medium-color;
-      color: black;
+      color: rgb(15, 12, 12);
       font-size: 0.6rem;
       margin: auto;
       text-align: center;
       border-radius: 5px;
     }
+
+    padding-right: 15px;
+    padding-bottom: 50px;
+    padding-left: 15px;
   }
 
   //about
@@ -401,7 +405,7 @@ a.weblinks:hover {
     }
 
     .container-tech {
-      height: 315px;
+      height: 325px;
       border-top: solid 1px rgb(63, 255, 60);
       border-right: solid 3px rgb(63, 255, 60);
     }
