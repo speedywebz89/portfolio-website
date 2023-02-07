@@ -11,7 +11,7 @@
 
 body {
   line-height: 2;
-  background-color: rgb(27, 26, 26);
+  background-color: rgb(41, 41, 41);
 }
 
 a {
@@ -79,12 +79,18 @@ img {
 }
 
 button {
-  background-color: rgb(73, 113, 73);
-  padding: 7px;
-  margin: 0 auto;
-  border-radius: 7px;
+  background-color: #1213131d;
+  padding: 8px;
+  margin: 0 3px;
+  border: solid 2px #00a3fa;
+  border-radius: 15px;
   font-family: "Montserrat", sans-serif;
   font-weight: bold;
+
+  &:hover {
+    background-color: #00a3fa;
+    border-radius: 0px;
+  }
 }
 
 .navbar.top {
@@ -102,21 +108,22 @@ button {
 }
 
 .weblinks {
-  font-size: 0.9rem;
-  color: rgb(246, 237, 237);
+  color: #ffff;
+  font-size: 1rem;
+  font-weight: 400;
 }
 
 a.weblinks:hover {
-  color: $main-color;
-  font-size: 1rem;
+  color: white;
+  font-weight: 800;
 }
 
 .navbar {
   display: flex;
   align-items: center;
   justify-content: space-between;
-  background-color: rgb(82, 82, 82);
-  opacity: 0.7;
+  background-color: rgb(41, 41, 41);
+  opacity: 0.8;
   height: 60px;
   width: 100%;
   position: fixed;
@@ -128,7 +135,7 @@ a.weblinks:hover {
   }
 
   li {
-    padding: 1rem 1.5rem;
+    padding: 1rem 1.3rem;
   }
 
   a {
@@ -162,16 +169,24 @@ a.weblinks:hover {
   .navbar.top {
     background: transparent;
   }
+
+  .nav-logo {
+    position: relative;
+    height: 25px;
+    width: 240px;
+    margin: auto 20px;
+    padding-top: 20px;
+  }
 }
 
 //header
 
 #header {
   &-home {
-    background: rgba(0, 0, 0, 0.5) $bg-image 30% 7% / 100% no-repeat fixed;
+    background: rgba(0, 0, 0, 0.2) $bg-image 50% 15% / 100% no-repeat fixed;
     background-blend-mode: darken;
     background-size: cover;
-    height: 600px;
+    height: 700px;
     color: white;
 
     //header text-content
@@ -297,12 +312,12 @@ a.weblinks:hover {
         transition: all 1s;
       }
 
-      //process-icon
+      //process-icon animations
 
       &-icon {
         border-radius: 50%;
-        background: $dark-color;
-        color: white;
+        background: #00a3fa;
+        color: rgb(234, 234, 240);
         padding: 2rem;
         width: 70px;
         height: 70px;
@@ -312,15 +327,16 @@ a.weblinks:hover {
         transition: all 1s;
 
         &:hover {
-          background: $main-color;
+          background: rgb(255, 255, 255);
+          color: #00a3fa;
           width: 85px;
           height: 85px;
           line-height: 85px;
 
           .process-step {
-            background: $dark-color;
-            color: rgb(246, 237, 237);
-            transform: rotate(376deg);
+            background: #111213;
+            color: $light-color;
+            transform: rotate(360deg);
           }
         }
       }
@@ -335,23 +351,32 @@ a.weblinks:hover {
     .about-info {
       display: grid;
       grid-template-areas: "bioimage bio bio";
-      grid-gap: 1.2rem;
+      grid-gap: 1rem;
     }
 
     //grid display area
 
     .bio {
       grid-area: bio;
-      border-left: 2px solid $main-color;
-      padding: 1rem;
+      border-left: 1px solid $main-color;
+      padding-right: 3rem;
+      padding-left: 3rem;
+      padding-top: 3rem;
+      padding-bottom: 2rem;
       line-height: 2;
       background-size: cover;
       height: 100%;
 
       .btn-about {
-        border-radius: 5px;
+        border-radius: 20px;
         padding: 0.1rem 3rem;
         margin: 5% 0% 1% 0%;
+      }
+
+      .btn-about:hover {
+        color: #fff;
+        border-radius: 0px;
+        font-weight: 600;
       }
     }
 
@@ -375,7 +400,7 @@ a.weblinks:hover {
     }
 
     .about {
-      height: 91%;
+      height: 100%;
     }
   }
 
@@ -401,21 +426,15 @@ a.weblinks:hover {
   &-c {
     .logo2 {
       width: 100%;
-      height: 340px;
+      height: 320px;
     }
 
     .container-tech {
       height: 325px;
-      border-top: solid 1px rgb(63, 255, 60);
-      border-right: solid 3px rgb(63, 255, 60);
+      border-top: solid 1px #00a3fa;
+      border-right: solid 1px #00a3fa;
+      border-left: solid 1px #00a3fa;
     }
-
-    /*img {
-     width: 6%;
-      height: 2%;
-      margin: 5% 3%;
-
-    }*/
   }
 }
 
@@ -436,10 +455,12 @@ a.weblinks:hover {
 
       .name-input {
         grid-area: name;
+        height: 30px;
       }
 
       .subject-input {
         grid-area: subject;
+        height: 30px;
       }
 
       .email-input {
@@ -448,6 +469,7 @@ a.weblinks:hover {
 
       .phone-input {
         grid-area: phone;
+        height: 30px;
       }
 
       .message-input {
@@ -461,7 +483,19 @@ a.weblinks:hover {
     }
 
     button[type="submit"] {
-      width: 50%;
+      width: 40%;
+      padding: 10px;
+    }
+
+    .contact-button {
+      border-radius: 5px;
+      color: white;
+      font-size: 1rem;
+      font-weight: 600;
+    }
+
+    .contact-button:hover {
+      border-radius: 0px;
     }
   }
 
@@ -509,7 +543,7 @@ a.weblinks:hover {
       padding: 0.5rem;
 
       &:hover {
-        background: $main-color;
+        background: #75badf18;
       }
     }
 

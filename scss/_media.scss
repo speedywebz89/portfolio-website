@@ -1,6 +1,49 @@
 // tablets and smaller
 
+@media (max-width: 1450px) {
+  .about-txt {
+    font-size: 15px;
+  }
+
+  .about-img {
+    height: 375px;
+    margin-top: 90px;
+  }
+}
+
 @media (max-width: 1400px) {
+  #header-home {
+    height: 32rem;
+
+    .header-content {
+      margin-top: 3rem;
+
+      h1 {
+        font-size: 2.5rem;
+        margin-top: 70px;
+      }
+
+      .specialize {
+        font-size: 0.9rem;
+        margin-top: auto auto;
+      }
+    }
+  }
+
+  .top-process {
+    font-size: 15px;
+    line-height: 1.7;
+  }
+
+  .about-txt {
+    font-size: 15px;
+  }
+
+  .about-img {
+    height: 375px;
+    margin-top: 90px;
+  }
+
   p {
     font-size: 1rem;
     line-height: 2;
@@ -20,30 +63,49 @@
 }
 
 @media (max-width: 1399px) {
-  #about-c {
-    .container-tech {
-      height: 510px;
-      width: 100%;
-    }
+  .container-tech {
+    height: 275px;
+    width: 100%;
+  }
 
-    .logo2 {
-      width: 100%;
-      height: 100%;
-    }
+  .logo2 {
+    width: 100%;
+    height: 100%;
   }
 }
 
 @media (max-width: 1128px) {
-  #about-c {
-    .container-tech {
-      height: 375px;
-      width: 100%;
-    }
+  .container-tech {
+    height: 300px;
+    width: 100%;
+  }
 
-    .logo2 {
-      width: 100%;
-      height: 100%;
+  .logo2 {
+    width: 100%;
+    height: 100%;
+  }
+}
+
+@media (max-width: 1024px) {
+  #header-home {
+    height: 32rem;
+
+    .header-content {
+      h1 {
+        font-size: 2.5rem;
+        margin-top: 70px;
+      }
     }
+  }
+
+  .container-tech {
+    height: 250px;
+    width: 100%;
+  }
+
+  .logo2 {
+    width: 100%;
+    height: 100%;
   }
 }
 
@@ -52,8 +114,6 @@
     height: 30rem;
 
     .header-content {
-      margin-top: 3rem;
-
       h1 {
         font-size: 2.3rem;
         margin-top: 40px;
@@ -107,7 +167,22 @@
   }
 }
 
-@media (max-width: 745px) {
+@media (max-width: 768px) {
+  #header-home {
+    height: 30rem;
+
+    .header-content {
+      h1 {
+        font-size: 2rem;
+        margin-top: 75px;
+      }
+
+      .specialize {
+        font-size: 0.9rem;
+      }
+    }
+  }
+
   #about-c {
     .container-tech {
       height: 265px;
@@ -119,40 +194,34 @@
       height: 100%;
     }
   }
+}
 
-  .specialize {
-    font-size: 1rem;
-    padding-top: 2.5rem;
+@media (max-width: 720px) {
+  #navbar {
+    .nav-logo {
+      display: none;
+    }
+
+    li {
+      margin: 0 auto;
+    }
   }
 }
 
 // Smartphones
 @media (max-width: 640px) {
-  #navbar {
-    flex-direction: column;
-    align-items: center;
-    font-size: 1rem;
-    margin-left: -15px;
-    height: 120px;
-    padding: 20px;
-
-    li {
-      padding: 1rem;
-    }
-  }
-
   #header {
     &-home {
       height: 30rem;
       border-bottom: 3px solid $main-color;
-      background-position: 20% 10%;
+      background-position: 50% 50%;
 
       .navbar {
         flex-direction: column;
         align-items: center;
         font-size: 1rem;
         margin-left: -45px;
-        height: 100px;
+        height: 50px;
         padding: 20px;
 
         li {
@@ -230,6 +299,10 @@
           "aw2"
           "aw3";
       }
+
+      .bio {
+        padding: 1rem;
+      }
     }
   }
 
@@ -279,7 +352,12 @@
     }
   }
 
+  .contact-button {
+    width: 100%;
+  }
+
   // Footer
+
   #main-footer {
     height: 7rem;
 
@@ -291,7 +369,8 @@
   }
 }
 
-// Landscape
+// Landscape media queries *****
+
 @media (max-width: 580px) {
   #header-home {
     .header-content {
@@ -378,7 +457,7 @@
     .header-content {
       h1 {
         font-size: 1.1rem;
-        //margin-bottom: 3px;
+        margin-top: 7rem;
         //padding-top: 10px;
       }
 
@@ -398,6 +477,14 @@
     }
   }
 
+  .navbar-top-about {
+    height: 1000px;
+  }
+
+  .about-p {
+    padding: 0px;
+  }
+
   .lead {
     padding: 1px;
   }
@@ -410,6 +497,27 @@
 
   .about-txt {
     padding: 1px 1px 10px 1px;
+  }
+
+  #header-home {
+    background: rgba(0, 0, 0, 0.3) $bg-image-2 50% 50% / 100% no-repeat fixed;
+    background-blend-mode: darken;
+    background-size: cover;
+    height: 500px;
+    color: white;
+  }
+
+  .my-tech {
+    margin: 0 auto;
+    font-size: 1.35rem;
+  }
+
+  .bio-image {
+    margin-bottom: 50px;
+  }
+
+  .contact-button {
+    width: 50%;
   }
 }
 
@@ -436,7 +544,7 @@
       }
 
       .container-tech {
-        height: 120px;
+        height: 120lpx;
         width: 100%;
       }
     }

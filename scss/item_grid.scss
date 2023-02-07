@@ -1,20 +1,20 @@
-@import'config';
+@import "config";
 
 .items {
   display: grid;
   grid-template-columns: repeat(3, 1fr);
   box-shadow: 0 10px 20px 0;
-
 }
+
+/*overlay PROJECTS*/
 
 .item {
   position: relative;
-  background: $dark-color;
+  background: #000000ce;
   overflow: hidden;
 
-
   &::after {
-    content: '';
+    content: "";
     position: absolute;
     display: block;
     background: inherit;
@@ -54,7 +54,7 @@
   }
 
   &-image:before {
-    content: '';
+    content: "";
     display: block;
     padding-top: 75%;
     overflow: hidden;
@@ -80,7 +80,8 @@
     z-index: 1;
     color: white;
     transform: translateY(-20%);
-    transition: opacity 500ms cubic-bezier(0.1, 1, 0.25, 1), transform 500ms cubic-bezier(0.2, 1, 0.25, 1);
+    transition: opacity 500ms cubic-bezier(0.1, 1, 0.25, 1),
+      transform 500ms cubic-bezier(0.2, 1, 0.25, 1);
     transition-delay: 375ms;
   }
 
@@ -99,13 +100,12 @@
 
   &-text-category {
     text-transform: uppercase;
-    font-size: 0.95rem;
-    opacity: 0.7;
+    font-size: 14px;
+    opacity: 0.9;
     margin: 0;
     padding: 10px;
   }
 }
-
 
 .TGauto {
   color: rgb(190, 72, 29);

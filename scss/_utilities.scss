@@ -25,18 +25,15 @@
     @extend %btn-shared;
     color: #333;
     background-color: $light-color;
-    border-radius:3px;
+    border-radius:20px;
     padding: 0.1rem 2rem;
-    border-top: 1px solid grey;
-    border-right:1px solid grey;
-    border-bottom: 2px solid grey;
-    border-left: 2px solid grey;
   }
 
   &-dark {
     @extend %btn-shared;
     color: #f4f4f4;
     background-color: $dark-color;
+    border: solid 2px white;
   }
 
 }
@@ -45,8 +42,10 @@ button[class^='btn-']:hover,
 a[class^='btn-']:hover,
 input[class^='btn-']:hover {
   background-color: $main-color;
-  color: rgb(5, 5, 5);
+  color: rgb(254, 254, 254);
+  font-weight: 600;
   font-style: italic;
+  border-radius: 0px;
 }
 
 //background

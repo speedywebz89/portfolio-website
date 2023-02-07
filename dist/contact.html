@@ -1,133 +1,188 @@
 <!DOCTYPE html>
 <html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link
+      rel="stylesheet"
+      href="https://use.fontawesome.com/releases/v5.15.4/css/all.css"
+      integrity="sha384-DyZ88mC6Up2uqS4h/KRgHuoeGwBcD4Ng9SiP4dIRy0EXTlnuz47vAwmeGwVChigm"
+      crossorigin="anonymous"
+    />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=League+Spartan:wght@200;300;400;500;700&display=swap"
+      rel="stylesheet"
+    />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Passions+Conflict&display=swap"
+      rel="stylesheet"
+    />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Libre+Baskerville&display=swap"
+      rel="stylesheet"
+    />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Dawning+of+a+New+Day&display=swap"
+      rel="stylesheet"
+    />
+    <link rel="stylesheet" href="css/main.css" />
+    <link rel="stylesheet" href="css/lightbox.min.css" />
 
-<head>
-  <meta charset="UTF-8">
-  <meta http-equiv="X-UA-Compatible" content="IE=edge">
-  <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.15.4/css/all.css"
-    integrity="sha384-DyZ88mC6Up2uqS4h/KRgHuoeGwBcD4Ng9SiP4dIRy0EXTlnuz47vAwmeGwVChigm" crossorigin="anonymous" />
-  <link rel="preconnect" href="https://fonts.googleapis.com">
-  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-  <link rel="preconnect" href="https://fonts.googleapis.com">
-  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-  <link href="https://fonts.googleapis.com/css2?family=League+Spartan:wght@200;300;400;500;700&display=swap"
-    rel="stylesheet">
-  <link rel="preconnect" href="https://fonts.googleapis.com">
-  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-  <link href="https://fonts.googleapis.com/css2?family=Passions+Conflict&display=swap" rel="stylesheet">
-  <link rel="preconnect" href="https://fonts.googleapis.com">
-  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-  <link rel="preconnect" href="https://fonts.googleapis.com">
-  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-  <link href="https://fonts.googleapis.com/css2?family=Libre+Baskerville&display=swap" rel="stylesheet">
-  <link href="https://fonts.googleapis.com/css2?family=Dawning+of+a+New+Day&display=swap" rel="stylesheet">
-  <link rel="stylesheet" href="css/main.css">
-  <link rel="stylesheet" href="css/lightbox.min.css">
+    <title>Contact Me | Front-End Web Developer</title>
+  </head>
 
-  <title>Contact Me | Front-End Web Developer</title>
-</head>
+  <body>
+    <!-- Header -->
+    <header id="header-inner">
+      <div id="navbar" class="navbar top about">
+        <h1 class="logo">
+          <img
+            class="nav-logo"
+            src="img/about-logos/tyler.png"
+            alt="open sign"
+          />
+        </h1>
+        <nav>
+          <ul>
+            <li><a href="index.html">Home</a></li>
+            <li><a href="about.html">About</a></li>
+            <li><a href="work.html">Projects</a></li>
+            <li><a href="contact.html" class="current">Contact</a></li>
+          </ul>
+        </nav>
+      </div>
+    </header>
 
-<body>
-  <!-- Header -->
-  <header id="header-inner">
-    <div id="navbar" class="navbar top about">
-      <h1 class="logo">
-        <span class="text-primary"> Tyler Gonzalez</span>
-      </h1>
-      <nav>
-        <ul>
-          <li><a href="index.html">Home</a></li>
-          <li><a href="about.html">About</a></li>
-          <li><a href="work.html">Projects</a></li>
-          <li><a href="contact.html" class="current">Contact</a></li>
-        </ul>
-      </nav>
-    </div>
-  </header>
+    <!--A: Contact form-->
 
-  <!--A: Contact form-->
+    <section id="contact-a" class="text-center py-3">
+      <div class="container">
+        <h2 class="section-title">Contact Me</h2>
+        <div class="bottom-line"></div>
+        <p class="lead">Here is how you can reach me.</p>
+        <form method="POST" data-netlify="true" data-netlify-recaptcha="true">
+          <div class="text-fields">
+            <input
+              type="text"
+              class="text-input name-input"
+              placeholder="Name"
+              name="name"
+            />
+            <input
+              type="text"
+              class="text-input subject-input"
+              placeholder="Subject"
+              name="subject"
+            />
+            <input
+              type="text"
+              class="text-input email-input"
+              placeholder="Email Address"
+              name="email"
+            />
+            <input
+              type="text"
+              class="text-input phone-input"
+              placeholder="Phone Number"
+              name="phone"
+            />
+            <textarea
+              type="text"
+              class="text-input message-input"
+              placeholder="Enter Message"
+              name="message"
+            ></textarea>
+            <div class="my-2">
+              <div data-netlify-recaptcha="true"></div>
+            </div>
+          </div>
+          <button type="submit" class="contact-button">Submit</button>
+        </form>
+      </div>
+    </section>
 
-  <section id="contact-a" class="text-center py-3">
-    <div class="container">
-      <h2 class="section-title">Contact Me</h2>
-      <div class="bottom-line"></div>
-      <p class="lead">Here is how you can reach me.</p>
-      <form method="POST" data-netlify="true" data-netlify-recaptcha="true">
-        <div class="text-fields">
-          <input type="text" class="text-input name-input" placeholder="Name" name="name">
-          <input type="text" class="text-input subject-input" placeholder="Subject" name="subject">
-          <input type="text" class="text-input email-input" placeholder="Email Address" name="email">
-          <input type="text" class="text-input phone-input" placeholder="Phone Number" name="phone">
-          <textarea type="text" class="text-input message-input" placeholder="Enter Message" name="message"></textarea>
-          <div class="my-2">
-            <div data-netlify-recaptcha="true"></div>
+    <!--section b contact info-->
+
+    <section id="contact-b" class="py-3 bg-dark">
+      <div class="container">
+        <div class="contact-info">
+          <div>
+            <i class="fas fa-envelope fa-2x" style="color: #00a3fa"></i>
+            <h3>Email</h3>
+            <p>speedywebz89@gmail.com</p>
+          </div>
+          <div>
+            <i class="fas fa-phone fa-2x" style="color: #00a3fa"></i>
+            <h3>Phone</h3>
+            <p>863-214-5802</p>
+          </div>
+          <div>
+            <i class="fas fa-address-card fa-2x" style="color: #00a3fa"></i>
+            <h3>Address</h3>
+            <p>PO box 302 Lakeland, FL 33810</p>
           </div>
         </div>
-        <button type="submit" class="btn-dark">Submit</button>
-      </form>
-    </div>
-  </section>
+      </div>
+    </section>
 
-  <!--section b contact info-->
+    <!--Section C-->
 
-  <section id="contact-b" class="py-3 bg-dark">
-    <div class="container">
-      <div class="contact-info">
-        <div>
-          <i class="fas fa-envelope fa-2x" style="color:#73c17e;"></i>
-          <h3>Email</h3>
-          <p>speedywebz89@gmail.com</p>
-        </div>
-        <div>
-          <i class="fas fa-phone fa-2x" style="color:#73c17e;"></i>
-          <h3>Phone</h3>
-          <p>863-214-5802</p>
-        </div>
-        <div>
-          <i class="fas fa-address-card fa-2x" style="color:#73c17e;"></i>
-          <h3>Address</h3>
-          <p>PO box 302 Lakeland, FL 33810</p>
+    <section id="contact-c" class="'bg-main py-4">
+      <div class="container">
+        <h1>Let's Work Together</h1>
+      </div>
+    </section>
+
+    <!--footer-->
+
+    <footer id="main-footer">
+      <div class="footer-content container">
+        <p>Copyright &copy; 2022 Tyler Gonzalez</p>
+        <div class="social">
+          <a
+            href="https://twitter.com/SpeedyWebz33/"
+            aria-label="twitter"
+            target="_blank"
+            ><i class="fab fa-twitter"></i
+          ></a>
+          <a
+            href="https://github.com/speedywebz89"
+            aria-label="Github"
+            target="_blank"
+            ><i class="fab fa-github"></i
+          ></a>
+          <a
+            href="https://www.linkedin.com/in/tyler-gonzalez-a1412a243/"
+            aria-label="Linkedin"
+            target="_blank"
+            ><i class="fab fa-linkedin"></i
+          ></a>
+          <a
+            href="https://www.instagram.com/tylerirvingg/?hl=en"
+            aria-label="Github"
+            target="_blank"
+            ><i class="fab fa-instagram"></i
+          ></a>
         </div>
       </div>
-    </div>
-  </section>
+    </footer>
+    <script
+      src="https://code.jquery.com/jquery-3.5.0.min.js"
+      integrity="sha256-xNzN2a4ltkB44Mc/Jz3pT4iU1cmeR0FkXs4pru/JxaQ="
+      crossorigin="anonymous"
+    ></script>
 
-  <!--Section C-->
-
-  <section id="contact-c" class="'bg-main py-4">
-    <div class="container">
-      <h1>Let's Work Together</h1>
-    </div>
-  </section>
-
-
-
-
-
-  <!--footer-->
-
-  <footer id="main-footer">
-    <div class="footer-content container">
-      <p>Copyright &copy; 2022 Tyler Gonzalez</p>
-      <div class="social">
-        <a href="https://twitter.com/SpeedyWebz33/" aria-label="twitter" target="_blank"><i
-            class="fab fa-twitter"></i></a>
-        <a href="https://github.com/speedywebz89" aria-label="Github" target="_blank"><i class="fab fa-github"></i></a>
-        <a href="https://www.linkedin.com/in/tyler-gonzalez-a1412a243/" aria-label="Linkedin" target="_blank"><i class="fab fa-linkedin"></i></a>
-        <a href="https://www.instagram.com/tylerirvingg/?hl=en" aria-label="Github" target="_blank"><i
-            class="fab fa-instagram"></i></a>
-      </div>
-    </div>
-  </footer>
-
-
-  </section>
-  <script src="https://code.jquery.com/jquery-3.5.0.min.js"
-    integrity="sha256-xNzN2a4ltkB44Mc/Jz3pT4iU1cmeR0FkXs4pru/JxaQ=" crossorigin="anonymous"></script>
-
-  <script src="js/nav.js"></script>
-
-</body>
-
+    <script src="js/nav.js"></script>
+  </body>
 </html>

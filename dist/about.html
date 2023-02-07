@@ -1,103 +1,191 @@
 <!DOCTYPE html>
 <html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <meta
+      name="description"
+      content="Tyler Gonzalez Web Developer Portfolio Website learn more about me and my work on the web. UI/UX Web Creator"
+    />
+    <link
+      rel="stylesheet"
+      href="https://use.fontawesome.com/releases/v5.15.4/css/all.css"
+      integrity="sha384-DyZ88mC6Up2uqS4h/KRgHuoeGwBcD4Ng9SiP4dIRy0EXTlnuz47vAwmeGwVChigm"
+      crossorigin="anonymous"
+    />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Dawning+of+a+New+Day&display=swap"
+      rel="stylesheet"
+    />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Karla&display=swap"
+      rel="stylesheet"
+    />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Montserrat&display=swap"
+      rel="stylesheet"
+    />
+    <link rel="stylesheet" href="css/main.css" />
+    <link rel="stylesheet" href="css/lightbox.min.css" />
+  </head>
 
-<head>
-  <meta charset="UTF-8">
-  <meta http-equiv="X-UA-Compatible" content="IE=edge">
-  <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <meta name="description" content="Tyler Gonzalez Web Developer Portfolio Website learn more about me and my work on the web. UI/UX Web Creator"/>
-  <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.15.4/css/all.css"
-    integrity="sha384-DyZ88mC6Up2uqS4h/KRgHuoeGwBcD4Ng9SiP4dIRy0EXTlnuz47vAwmeGwVChigm" crossorigin="anonymous" />
-  <link href="https://fonts.googleapis.com/css2?family=Dawning+of+a+New+Day&display=swap" rel="stylesheet">
-  <link href="https://fonts.googleapis.com/css2?family=Karla&display=swap" rel="stylesheet">
-  <link rel="preconnect" href="https://fonts.googleapis.com">
-  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-  <link href="https://fonts.googleapis.com/css2?family=Montserrat&display=swap" rel="stylesheet">
-  <link rel="stylesheet" href="css/main.css">
-  <link rel="stylesheet" href="css/lightbox.min.css">
-</head>
-
-<body>
-  <!-- Header -->
-  <header id="header-inner">
-    <div id="navbar" class="navbar top about">
-      <h1 class="logo">
-        <span class="text-primary"> Tyler Gonzalez</span>
-      </h1>
-      <nav>
-        <ul>
-          <li><a href="index.html">Home</a></li>
-          <li><a href="about.html" class="current">About</a></li>
-          <li><a href="work.html">Projects</a></li>
-          <li><a href="contact.html">Contact</a></li>
-        </ul>
-      </nav>
-    </div>
-  </header>
-  <!--Section A: about me info-->
-  <section id="about-a" class="text-center py-3">
-    <div class="container">
-      <h2 class="section-title">About Me</h2>
-      <div class="bottom-line"></div>
-      <p class="lead">I have a passion for making beautiful responsive websites, skateboarding and being goofy.</p>
-      <div class="about-info">
-        <img src="img/about2.jpg" alt="" class="bio-img">
-        <div class="bio bg-dark about">
-          <h4>Things I Enjoy..</h4>
-          <p class="about-p">After a very long hiatus away from my true passion, I found my way back to designing and
-            developing websites. I've become obsessed with the things we can do today compared to 2005, from responsive
-            design to functionality, websites today are truly a work of art.</p>
-          <p class="about-p">This is my dog Daisy. She is a 100% purebred Beagle. There are two types of Beagles there
-            are Beagles that don't exceed 13 inches in height at the shoulder and beagles that stand 13-15 inches in
-            height at he shoulder. Daisy is 14 inches at the shoulder and still growing. She has a very wild personality
-            and has many friends at the local dog park.</p>
-        </div>
-        <div class="award-1">
-          <i class="fas fa-skull-crossbones fa-3x"></i>
-          <h3>Skateboarding</h3>
-          <p class="icon-a">I will forever be grateful for skateboarding, it has molded me into the person I am today. It's my
-            meditation
-            from the everyday stresses of life, it keeps me grounded and it's great exercise!</p>
-        </div>
-        <div class="award-2">
-          <i class="fas fa-code fa-3x"></i>
-          <h3>Coding</h3>
-          <p class="icon-a">I'm a professional at my craft. I will take your personalized design and make it a reality for the world to
-            see. From wireframes to deployment, if you can think it, i can build it.</p>
-        </div>
-        <div class="award-3">
-          <i class="fas fa-car fa-3x"></i>
-          <h3>Traveling</h3>
-          <p class="icon-a">I've lived in many different states in the U.S. I love exploring new places and trying new things. One of the coolest places i've been to is the Grand Canyon in Arizona.</p>
+  <body>
+    <!-- Header -->
+    <header id="header-inner">
+      <div id="navbar" class="navbar top about">
+        <h1 class="logo">
+          <img
+            class="nav-logo"
+            src="img/about-logos/tyler.png"
+            alt="open sign"
+          />
+        </h1>
+        <nav>
+          <ul>
+            <li><a href="index.html">Home</a></li>
+            <li><a href="about.html" class="current">About</a></li>
+            <li><a href="work.html">Projects</a></li>
+            <li><a href="contact.html">Contact</a></li>
+          </ul>
+        </nav>
+      </div>
+    </header>
+    <!--Section A: about me info-->
+    <section id="about-a" class="text-center py-3">
+      <div class="container">
+        <h2 class="section-title">About Me</h2>
+        <div class="bottom-line"></div>
+        <p class="lead">
+          I have a passion for making beautiful responsive websites,
+          skateboarding and being goofy.
+        </p>
+        <div class="about-info">
+          <img src="img/about2.jpg" alt="" class="bio-img" />
+          <div class="bio bg-dark about">
+            <h4>Things I Enjoy..</h4>
+            <p class="about-p">
+              After a very long hiatus away from my true passion, I found my way
+              back to designing and developing websites. I've become obsessed
+              with the things we can do today compared to 10 years ago, from
+              responsive design to functionality, modern websites are truly a
+              work of art. Websites, web apps and mobile applications can open
+              new possibilities for businesses and entrepreneurs. Today i am
+              blessed to have access to free programming education and learning
+              resources online that nobody had access to ten years ago.
+            </p>
+            <p class="about-p">
+              This is my dog Daisy. She is a 100% purebred Beagle. There are two
+              types of Beagles there are Beagles that don't exceed 13 inches in
+              height at the shoulder and beagles that stand 13-15 inches in
+              height at he shoulder. Daisy is 14 inches at the shoulder and
+              still growing. She has a very wild personality and has many
+              friends at the local dog park.
+            </p>
+            <p class="about-p">
+              In my free time you can find me at the local parks hiking and
+              exploring nature. My favorite parks in Lakeland are
+              <a
+                href="https://www.lakelandgov.net/departments/parks-recreation-and-cultural-arts/skate-park/"
+                target="_blank"
+                style="color: #00a3fa"
+                >Fletcher Park,</a
+              >
+              <a
+                href="https://www.polk-county.net/parks-and-recreation/facilities/lists/parks-and-recreation-facilities/loyce-e-harpe-park"
+                target="_blank"
+                style="color: #00a3fa"
+                >Loyce E. Harpe Park,</a
+              >
+              <a
+                href="https://polknature.com/explore/circle-b-bar-reserve"
+                target="_blank"
+                style="color: #00a3fa"
+                >Circle B Bar Reserve,</a
+              >
+              and
+              <a
+                href="https://tampabayparenting.com/bonnet-springs-park-in-lakeland/"
+                target="_blank"
+                style="color: #00a3fa"
+                >Bonnet Springs Park.</a
+              >
+              I also like to expolore local car meets, restaurants and the many
+              beaches near by.
+            </p>
+          </div>
+          <div class="award-1">
+            <i class="fas fa-skull-crossbones fa-3x"></i>
+            <h3>Skateboarding</h3>
+            <p class="icon-a">
+              I will forever be grateful for skateboarding, it has molded me
+              into the person I am today. It's my meditation from the everyday
+              stresses of life, it keeps me grounded and it's great exercise!
+            </p>
+          </div>
+          <div class="award-2">
+            <i class="fas fa-code fa-3x"></i>
+            <h3>Coding</h3>
+            <p class="icon-a">
+              I'm a professional at my craft. I will take your personalized
+              design and make it a reality for the world to see. From wireframes
+              to deployment, if you can think it, i can build it.
+            </p>
+          </div>
+          <div class="award-3">
+            <i class="fas fa-car fa-3x"></i>
+            <h3>Traveling</h3>
+            <p class="icon-a">
+              I've lived in many different states in the U.S. I love exploring
+              new places and trying new things. One of the coolest places i've
+              been to is the Grand Canyon in Arizona.
+            </p>
+          </div>
         </div>
       </div>
-    </div>
-  </section>
+    </section>
 
-  <!--footer-->
+    <!--footer-->
 
-  <footer id="main-footer">
-    <div class="footer-content container">
-      <p>Copyright &copy; 2022 Tyler Gonzalez</p>
-      <div class="social">
-        <a href="https://twitter.com/SpeedyWebz33/" aria-label="twitter" target="_blank"><i
-            class="fab fa-twitter"></i></a>
-        <a href="https://github.com/speedywebz89" aria-label="Github" target="_blank"><i class="fab fa-github"></i></a>
-        <a href="https://www.linkedin.com/in/tyler-gonzalez-a1412a243/" aria-label="Linkedin" target="_blank"><i
-            class="fab fa-linkedin"></i></a>
-        <a href="https://www.instagram.com/tylerirvingg/?hl=en" aria-label="Github" target="_blank"><i
-            class="fab fa-instagram"></i></a>
+    <footer id="main-footer">
+      <div class="footer-content container">
+        <p>Copyright &copy; 2022 Tyler Gonzalez</p>
+        <div class="social">
+          <a
+            href="https://twitter.com/SpeedyWebz33/"
+            aria-label="twitter"
+            target="_blank"
+            ><i class="fab fa-twitter"></i
+          ></a>
+          <a
+            href="https://github.com/speedywebz89"
+            aria-label="Github"
+            target="_blank"
+            ><i class="fab fa-github"></i
+          ></a>
+          <a
+            href="https://www.linkedin.com/in/tyler-gonzalez-a1412a243/"
+            aria-label="Linkedin"
+            target="_blank"
+            ><i class="fab fa-linkedin"></i
+          ></a>
+          <a
+            href="https://www.instagram.com/tylerirvingg/?hl=en"
+            aria-label="Github"
+            target="_blank"
+            ><i class="fab fa-instagram"></i
+          ></a>
+        </div>
       </div>
-    </div>
-  </footer>
+    </footer>
+    <script
+      src="https://code.jquery.com/jquery-3.5.0.min.js"
+      integrity="sha256-xNzN2a4ltkB44Mc/Jz3pT4iU1cmeR0FkXs4pru/JxaQ="
+      crossorigin="anonymous"
+    ></script>
 
-
-  </section>
-  <script src="https://code.jquery.com/jquery-3.5.0.min.js"
-    integrity="sha256-xNzN2a4ltkB44Mc/Jz3pT4iU1cmeR0FkXs4pru/JxaQ=" crossorigin="anonymous"></script>
-
-  <script src="js/nav.js"></script>
-
-</body>
-
+    <script src="js/nav.js"></script>
+  </body>
 </html>
