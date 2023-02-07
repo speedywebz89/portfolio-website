@@ -183,7 +183,7 @@ a.weblinks:hover {
 
 #header {
   &-home {
-    background: rgba(0, 0, 0, 0.2) $bg-image 50% 15% / 100% no-repeat fixed;
+    background: rgba(0, 0, 0, 0.2) $bg-image 50% 25% / 100% no-repeat fixed;
     background-blend-mode: darken;
     background-size: cover;
     height: 700px;
@@ -352,6 +352,7 @@ a.weblinks:hover {
       display: grid;
       grid-template-areas: "bioimage bio bio";
       grid-gap: 1rem;
+      height: 100%;
     }
 
     //grid display area

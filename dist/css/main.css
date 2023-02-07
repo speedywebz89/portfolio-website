@@ -442,7 +442,8 @@ a.weblinks:hover {
 #about-a .about-info {
   display: grid;
   grid-template-areas: "bioimage bio bio";
-  grid-gap: 1rem; }
+  grid-gap: 1rem;
+  height: 100%; }
 
 #about-a .bio {
   grid-area: bio;
