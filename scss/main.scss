@@ -101,12 +101,6 @@ button {
   margin: 0 -25px;
 }
 
-.text-primary {
-  font-family: "Dawning of a New Day", cursive;
-  margin-left: 20px;
-  font-size: 1.7rem;
-}
-
 .weblinks {
   color: #ffff;
   font-size: 1rem;
@@ -177,13 +171,17 @@ a.weblinks:hover {
     margin: auto 20px;
     padding-top: 20px;
   }
+
+  .about-nav {
+    font-size: 1rem;
+  }
 }
 
 //header
 
 #header {
   &-home {
-    background: rgba(0, 0, 0, 0.2) $bg-image 50% 25% / 100% no-repeat fixed;
+    background: rgba(0, 0, 0, 0.2) $bg-image 90% 25% / 100% no-repeat fixed;
     background-blend-mode: darken;
     background-size: cover;
     height: 700px;
@@ -221,7 +219,7 @@ a.weblinks:hover {
   // Header inner
 
   &-inner {
-    background: rgba(0, 0, 0, 0.2) $bg-image 50% 60% / 100% no-repeat fixed;
+    background: rgba(0, 0, 0, 0) $bg-image 50% 60% / 100% no-repeat fixed;
     background-blend-mode: darken;
     background-size: cover;
     height: 4.5rem;

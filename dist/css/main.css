@@ -280,11 +280,6 @@ button {
 .home {
   margin: 0 -25px; }
 
-.text-primary {
-  font-family: "Dawning of a New Day", cursive;
-  margin-left: 20px;
-  font-size: 1.7rem; }
-
 .weblinks {
   color: #ffff;
   font-size: 1rem;
@@ -337,9 +332,11 @@ a.weblinks:hover {
     width: 240px;
     margin: auto 20px;
     padding-top: 20px; }
+  .navbar .about-nav {
+    font-size: 1rem; }
 
 #header-home {
-  background: rgba(0, 0, 0, 0.2) url("../img/showcase.jpg") 50% 15%/100% no-repeat fixed;
+  background: rgba(0, 0, 0, 0.2) url("../img/showcase.jpg") 90% 25%/100% no-repeat fixed;
   background-blend-mode: darken;
   background-size: cover;
   height: 700px;
@@ -362,7 +359,7 @@ a.weblinks:hover {
       font-family: "Montserrat", sans-serif; }
 
 #header-inner {
-  background: rgba(0, 0, 0, 0.2) url("../img/showcase.jpg") 50% 60%/100% no-repeat fixed;
+  background: rgba(0, 0, 0, 0) url("../img/showcase.jpg") 50% 60%/100% no-repeat fixed;
   background-blend-mode: darken;
   background-size: cover;
   height: 4.5rem;
@@ -843,8 +840,12 @@ a.weblinks:hover {
     height: 100%; }
   #header-home .container-tech {
     height: 175px; }
-  .navbar-top-about {
-    height: 1000px; }
+  /*NAVBAR AND HEADER ON SMALL DEVICES*/
+  #header-inner {
+    height: 25rem;
+    font-size: 0.9rem;
+    margin-left: -5px; }
+  /*END OF NAVBAR AND HEADER ON SMALLER DEVICES*/
   .about-p {
     padding: 0px; }
   .lead {
@@ -859,7 +860,7 @@ a.weblinks:hover {
     background: rgba(0, 0, 0, 0.3) url("../img/showcase2.png") 50% 50%/100% no-repeat fixed;
     background-blend-mode: darken;
     background-size: cover;
-    height: 500px;
+    height: 550px;
     color: white; }
   .my-tech {
     margin: 0 auto;

@@ -477,9 +477,15 @@
     }
   }
 
-  .navbar-top-about {
-    height: 1000px;
+  /*NAVBAR AND HEADER ON SMALL DEVICES*/
+
+  #header-inner {
+    height: 25rem;
+    font-size: 0.9rem;
+    margin-left: -5px;
   }
+
+  /*END OF NAVBAR AND HEADER ON SMALLER DEVICES*/
 
   .about-p {
     padding: 0px;
@@ -503,7 +509,7 @@
     background: rgba(0, 0, 0, 0.3) $bg-image-2 50% 50% / 100% no-repeat fixed;
     background-blend-mode: darken;
     background-size: cover;
-    height: 500px;
+    height: 550px;
     color: white;
   }
 
