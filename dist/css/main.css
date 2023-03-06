@@ -807,7 +807,7 @@ a.weblinks:hover {
     height: 100vh !important; }
     #header-home .header-content h1 {
       font-size: 1.1rem;
-      margin-top: 90px; }
+      margin-top: 112px; }
     #header-home .header-content .specialize {
       padding: 1px;
       margin-top: 0.5rem; }
@@ -846,7 +846,9 @@ a.weblinks:hover {
     font-size: 14px !important;
     margin-top: 10px !important;
     line-height: 1.5;
-    padding-bottom: 5px !important; } }
+    padding-bottom: 5px !important; }
+  p.item-text-category {
+    font-size: 10px; } }
 
 @media (max-width: 380px) {
   .specialize {
