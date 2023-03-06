@@ -12,7 +12,7 @@
 
 .btn-main {
   color: #333;
-  background-color: #00a3fa; }
+  background-color: #1fbd98; }
 
 .btn-light {
   color: #333;
@@ -25,17 +25,17 @@
   background-color: #403f3f;
   border: solid 2px white; }
 
-button[class^='btn-']:hover,
-a[class^='btn-']:hover,
-input[class^='btn-']:hover {
-  background-color: #00a3fa;
+button[class^="btn-"]:hover,
+a[class^="btn-"]:hover,
+input[class^="btn-"]:hover {
+  background-color: #1fbd98;
   color: #fefefe;
   font-weight: 600;
   font-style: italic;
   border-radius: 0px; }
 
 .bg-main {
-  background: #00a3fa;
+  background: #1fbd98;
   color: white; }
 
 .bg-dark {
@@ -53,7 +53,7 @@ input[class^='btn-']:hover {
 .lead {
   font-size: 1.2rem;
   margin-bottom: 3rem;
-  font-family: 'Karla', sans-serif; }
+  font-family: "Karla", sans-serif; }
 
 .text-center {
   text-align: center; }
@@ -91,9 +91,10 @@ input[class^='btn-']:hover {
   text-transform: uppercase; }
 
 .bottom-line {
-  height: 2px;
-  width: 4rem;
-  background: #00a3fa;
+  height: 3px;
+  width: 90px;
+  border-radius: 50%;
+  background: #1fbd98;
   display: block;
   margin: 0 auto 1rem auto; }
 
@@ -219,12 +220,12 @@ h1,
 h2,
 h3,
 h4 {
-  font-family: "Karla", sans-serif;
+  font-family: "Montserrat";
   color: white; }
 
 h4 {
   margin-bottom: 40px;
-  font-family: "Karla", sans-serif;
+  font-family: "Montserrat", sans-serif;
   font-weight: 500;
   word-spacing: 5; }
 
@@ -235,17 +236,17 @@ p {
   text-align: center;
   padding: 0 50px 0 50px; }
 
-.about-txt {
-  font-size: 0.9rem;
-  line-height: 1.6;
-  word-spacing: 2px; }
-
 .about-p {
   padding-bottom: 15px; }
 
+.lead {
+  font-size: 1.2rem;
+  margin-bottom: 3rem;
+  font-family: "Montserrat", sans-serif; }
+
 .top-process {
   font-family: "Montserrat", sans-serif;
-  line-height: 2.2;
+  line-height: 1.9;
   font-size: 0.9rem;
   padding: 0px 5px;
   margin: 0 auto; }
@@ -264,15 +265,16 @@ img {
 
 button {
   background-color: #1213131d;
-  padding: 8px;
+  padding: 5px 25px;
   margin: 0 3px;
-  border: solid 2px #00a3fa;
-  border-radius: 15px;
+  border: solid 2px #1fbd98;
+  border-radius: 5px;
   font-family: "Montserrat", sans-serif;
   font-weight: bold; }
   button:hover {
-    background-color: #00a3fa;
-    border-radius: 0px; }
+    background-color: #1fbd98;
+    border-radius: 0px;
+    cursor: pointer; }
 
 .navbar.top {
   background: transparent; }
@@ -314,12 +316,12 @@ a.weblinks:hover {
     transition: border-color 0.6s; }
     .navbar a:hover {
       font-style: italic;
-      color: #00a3fa;
+      color: #1fbd98;
       opacity: none;
       font-size: 1.1rem;
       font-weight: 800; }
     .navbar a:current {
-      color: #00a3fa; }
+      color: #1fbd98; }
   .navbar .nav-heading {
     font-family: "Montserrat", sans-serif;
     margin-top: 10px;
@@ -339,19 +341,19 @@ a.weblinks:hover {
   background: rgba(0, 0, 0, 0.2) url("../img/showcase.jpg") 90% 25%/100% no-repeat fixed;
   background-blend-mode: darken;
   background-size: cover;
-  height: 700px;
+  height: 100vh;
   color: white; }
   #header-home .header-content {
     text-align: center;
     padding: 4%;
-    margin-top: 75px; }
+    margin-top: 150px; }
     #header-home .header-content h1 {
       font-size: 2.95rem;
       margin-top: 5rem; }
     #header-home .header-content .btn-pro {
       text-decoration: underline; }
     #header-home .header-content .txt-type {
-      color: #00a3fa; }
+      color: #1fbd98; }
     #header-home .header-content .specialize {
       font-size: 0.99rem;
       color: #f4f4f8;
@@ -363,7 +365,7 @@ a.weblinks:hover {
   background-blend-mode: darken;
   background-size: cover;
   height: 4.5rem;
-  border-bottom: 3px solid #00a3fa;
+  border-bottom: 3px solid #1fbd98;
   margin-top: 0 auto; }
 
 #home-a .specials {
@@ -373,7 +375,7 @@ a.weblinks:hover {
   grid-template-columns: repeat(4, 1fr); }
 
 #home-a .fas {
-  color: #00a3fa;
+  color: #1fbd98;
   padding-bottom: 0.4rem; }
 
 #home-b .stats {
@@ -407,7 +409,8 @@ a.weblinks:hover {
     top: 0;
     right: 0;
     font-size: 28px;
-    background: #00a3fa;
+    background: white;
+    color: #171616;
     border-radius: 50%;
     height: 15px;
     width: 15px;
@@ -416,7 +419,7 @@ a.weblinks:hover {
     transition: all 1s; }
   #home-c .process-icon {
     border-radius: 50%;
-    background: #00a3fa;
+    background: #1fbd98;
     color: #eaeaf0;
     padding: 2rem;
     width: 70px;
@@ -427,7 +430,7 @@ a.weblinks:hover {
     transition: all 1s; }
     #home-c .process-icon:hover {
       background: white;
-      color: #00a3fa;
+      color: #1fbd98;
       width: 85px;
       height: 85px;
       line-height: 85px; }
@@ -436,72 +439,63 @@ a.weblinks:hover {
         color: white;
         transform: rotate(360deg); }
 
-#about-a .about-info {
-  display: grid;
-  grid-template-areas: "bioimage bio bio";
-  grid-gap: 1rem;
-  height: 100%; }
+#about-a {
+  /***********TEXT FOR THE ABOUT ME INFO***********/ }
+  #about-a .about-info {
+    display: grid;
+    grid-template-areas: "bioimage bio bio" "aw1 aw2 aw3";
+    grid-gap: 1.2rem;
+    width: fit-content; }
+  #about-a .bio-image {
+    grid-area: bioimage; }
+  #about-a .bio {
+    grid-area: bio;
+    border-left: 3px solid #1fbd98;
+    padding: 0.8rem; }
+  #about-a .award-1 {
+    grid-area: aw1; }
+  #about-a .award-2 {
+    grid-area: aw2; }
+  #about-a .award-3 {
+    grid-area: aw3; }
+  #about-a .award-1 .fas,
+  #about-a .award-2 .fas,
+  #about-a .award-3 .fas {
+    color: #1fbd98; }
+  #about-a .section-title {
+    font-family: "Montserrat"; }
+  #about-a .lead {
+    font-family: "Montserrat";
+    font-size: 16px; }
+  #about-a .about-txt {
+    font-family: "Montserrat";
+    font-size: 24px;
+    line-height: 1.5;
+    padding: 5px;
+    margin-top: 90px;
+    padding: 20px 20px 30px 20px; }
 
-#about-a .bio {
-  grid-area: bio;
-  border-left: 1px solid #00a3fa;
-  padding-right: 3rem;
-  padding-left: 3rem;
-  padding-top: 3rem;
-  padding-bottom: 2rem;
-  line-height: 2;
-  background-size: cover;
-  height: 100%; }
-  #about-a .bio .btn-about {
-    border-radius: 20px;
-    padding: 0.1rem 3rem;
-    margin: 5% 0% 1% 0%; }
-  #about-a .bio .btn-about:hover {
-    color: #fff;
-    border-radius: 0px;
-    font-weight: 600; }
+#about-c {
+  /***************TECHNOLOGIES IMAGE**********************/ }
+  #about-c .logo2 {
+    width: 100%;
+    height: 310px; }
+  #about-c .container-tech {
+    height: 310px;
+    border-top: solid 3px #1fbd98;
+    padding-top: 15px;
+    margin-bottom: 100px; }
 
-#about-a .dog-text {
-  font-size: 1.5rem;
-  margin-top: 1%;
-  padding: 3px; }
+.btn-about {
+  border-radius: 20px;
+  padding: 0.1rem 3rem;
+  margin-top: 15px;
+  margin-bottom: 15px; }
 
-#about-a .bio-img {
-  position: relative;
-  height: 100%;
-  width: 100%; }
-
-#about-a .award-1 .fas,
-#about-a .award-2 .fas,
-#about-a .award-3 .fas {
-  color: #00a3fa;
-  margin-top: 3rem; }
-
-#about-a .about {
-  height: 100%; }
-
-#about-b {
-  padding-right: 15px;
-  padding-bottom: 50px;
-  padding-left: 15px; }
-  #about-b .progress {
-    overflow: hidden;
-    background: #ccc;
-    color: #0f0c0c;
-    font-size: 0.6rem;
-    margin: auto;
-    text-align: center;
-    border-radius: 5px; }
-
-#about-c .logo2 {
-  width: 100%;
-  height: 320px; }
-
-#about-c .container-tech {
-  height: 325px;
-  border-top: solid 1px #00a3fa;
-  border-right: solid 1px #00a3fa;
-  border-left: solid 1px #00a3fa; }
+.btn-about:hover {
+  color: #fff;
+  border-radius: 0px;
+  font-weight: 600; }
 
 #contact-a .text-fields {
   display: grid;
@@ -546,7 +540,7 @@ a.weblinks:hover {
 #contact-c h1 {
   text-align: center;
   font-size: 3rem;
-  color: #00a3fa;
+  color: #1fbd98;
   font-family: "League Spartan" sans-serif;
   font-style: italic; }
 
@@ -595,18 +589,27 @@ a.weblinks:hover {
       background: -webkit-linear-gradient(90deg, #f1f0ee 0%, #aca9a8 25%, #757373 50%, #74737494 75%, #7978786c 100%);
       background: linear-gradient(90deg, #f1f0ee 0%, #aca9a8 25%, #757373 50%, #807f7f94 75%, #8f8d8d6c 100%); }
 
+.SERVICE {
+  color: #53b2ff; }
+
+@media (max-width: 1650px) {
+  p.about-txt {
+    font-size: 22px !important;
+    margin-top: 70px !important; } }
+
 @media (max-width: 1450px) {
-  .about-txt {
-    font-size: 15px; }
   .about-img {
     height: 375px;
-    margin-top: 90px; } }
+    margin-top: 90px; }
+  .lead {
+    font-family: "Montserrat";
+    font-size: 16px; } }
 
 @media (max-width: 1400px) {
   #header-home {
-    height: 32rem; }
+    height: 100vh; }
     #header-home .header-content {
-      margin-top: 3rem; }
+      margin-top: 120px; }
       #header-home .header-content h1 {
         font-size: 2.5rem;
         margin-top: 70px; }
@@ -616,56 +619,36 @@ a.weblinks:hover {
   .top-process {
     font-size: 15px;
     line-height: 1.7; }
-  .about-txt {
-    font-size: 15px; }
-  .about-img {
-    height: 375px;
-    margin-top: 90px; }
   p {
     font-size: 1rem;
     line-height: 2; }
   #about-c .container-tech {
-    height: 400px;
-    width: 100%; }
+    height: 275px;
+    margin-top: 0px; }
   #about-c .logo2 {
     width: 100%;
-    height: 100%; } }
-
-@media (max-width: 1399px) {
-  .container-tech {
     height: 275px;
-    width: 100%; }
-  .logo2 {
-    width: 100%;
-    height: 100%; } }
-
-@media (max-width: 1128px) {
-  .container-tech {
-    height: 300px;
-    width: 100%; }
-  .logo2 {
-    width: 100%;
-    height: 100%; } }
+    margin: auto auto; }
+  p.about-txt {
+    font-size: 17px !important;
+    margin-top: 50px !important; } }
 
 @media (max-width: 1024px) {
   #header-home {
-    height: 32rem; }
+    height: 100vh; }
     #header-home .header-content h1 {
       font-size: 2.5rem;
-      margin-top: 70px; }
-  .container-tech {
-    height: 250px;
-    width: 100%; }
-  .logo2 {
-    width: 100%;
-    height: 100%; } }
+      margin-top: 100px; }
+  .lead {
+    font-family: "Montserrat";
+    font-size: 16px; } }
 
 @media (max-width: 920px) {
   #header-home {
-    height: 30rem; }
+    height: 100vh; }
     #header-home .header-content h1 {
       font-size: 2.3rem;
-      margin-top: 40px; }
+      margin-top: 100px; }
     #header-home .header-content .specialize {
       font-size: 0.7rem;
       margin-top: -40px; }
@@ -673,16 +656,7 @@ a.weblinks:hover {
     font-size: 1.04rem; }
   .specialize {
     font-size: 1rem;
-    padding-top: 2.5rem; }
-  .about-p {
-    font-size: 0.8rem;
-    padding-bottom: 40px; }
-  #about-c .container-tech {
-    height: 350px;
-    width: 100%; }
-  #about-c .logo2 {
-    width: 100%;
-    height: 100%; } }
+    padding-top: 2.5rem; } }
 
 @media (max-width: 829px) {
   #about-c .container-tech {
@@ -694,10 +668,10 @@ a.weblinks:hover {
 
 @media (max-width: 768px) {
   #header-home {
-    height: 30rem; }
+    height: 100vh; }
     #header-home .header-content h1 {
       font-size: 2rem;
-      margin-top: 75px; }
+      margin-top: 100px; }
     #header-home .header-content .specialize {
       font-size: 0.9rem; }
   #about-c .container-tech {
@@ -715,8 +689,8 @@ a.weblinks:hover {
 
 @media (max-width: 640px) {
   #header-home {
-    height: 30rem;
-    border-bottom: 3px solid #00a3fa;
+    height: 100vh;
+    border-bottom: 3px solid #1fbd98;
     background-position: 50% 50%; }
     #header-home .navbar {
       flex-direction: column;
@@ -730,14 +704,14 @@ a.weblinks:hover {
       #header-home .navbar .text-primary {
         font-size: 2rem; }
     #header-home .header-content {
-      margin-top: 5rem; }
+      margin-top: 160px; }
       #header-home .header-content h1 {
         font-size: 1.7rem;
         margin-top: 70px; }
     #header-home .text-primary {
       display: none; }
   #header-inner {
-    height: 10rem; }
+    height: 5rem; }
   .specialize {
     font-size: 1rem;
     padding-top: 2.5rem; }
@@ -808,7 +782,7 @@ a.weblinks:hover {
 
 @media (max-width: 440px) {
   #header-home {
-    height: 31.5rem; }
+    height: 100vh; }
   #about-c .logo2 {
     width: 100%;
     height: 100%; }
@@ -829,21 +803,21 @@ a.weblinks:hover {
     font-size: 1rem; } }
 
 @media (max-width: 430px) {
-  #header-home .header-content h1 {
-    font-size: 1.1rem;
-    margin-top: 7rem; }
-  #header-home .header-content .specialize {
-    padding: 1px;
-    margin-top: 0.5rem; }
-  #header-home .logo2 {
-    width: 100%;
-    height: 100%; }
-  #header-home .container-tech {
-    height: 175px; }
+  #header-home {
+    height: 100vh !important; }
+    #header-home .header-content h1 {
+      font-size: 1.1rem;
+      margin-top: 90px; }
+    #header-home .header-content .specialize {
+      padding: 1px;
+      margin-top: 0.5rem; }
+    #header-home .logo2 {
+      width: 100%;
+      height: 100%; }
   /*NAVBAR AND HEADER ON SMALL DEVICES*/
   #header-inner {
-    height: 25rem;
-    font-size: 0.9rem;
+    height: 5rem;
+    font-size: 0.5rem;
     margin-left: -5px; }
   /*END OF NAVBAR AND HEADER ON SMALLER DEVICES*/
   .about-p {
@@ -857,25 +831,25 @@ a.weblinks:hover {
   .about-txt {
     padding: 1px 1px 10px 1px; }
   #header-home {
-    background: rgba(0, 0, 0, 0.3) url("../img/showcase2.png") 50% 50%/100% no-repeat fixed;
+    background: rgba(0, 0, 0, 0.3) url("../img/showcase.jpg") 50% 50%/100% no-repeat fixed;
     background-blend-mode: darken;
     background-size: cover;
-    height: 550px;
     color: white; }
   .my-tech {
     margin: 0 auto;
     font-size: 1.35rem; }
   .bio-image {
-    margin-bottom: 50px; }
+    margin-bottom: 5px; }
   .contact-button {
-    width: 50%; } }
+    width: 50%; }
+  p.about-txt {
+    font-size: 14px !important;
+    margin-top: 10px !important;
+    line-height: 1.5;
+    padding-bottom: 5px !important; } }
 
 @media (max-width: 380px) {
-  #header-home .header-content h1 {
-    font-size: 110%;
-    padding: none;
-    margin-top: 3.5rem; }
-  #header-home .specialize {
+  .specialize {
     margin-top: 0.2rem; }
   #about-c .logo2 {
     width: 100%;
@@ -883,11 +857,3 @@ a.weblinks:hover {
   #about-c .container-tech {
     height: 120lpx;
     width: 100%; } }
-
-@media (max-width: 350px) {
-  #header-home .header-content h1 {
-    font-size: 100%;
-    margin-top: 7rem;
-    margin-bottom: 3rem; }
-  #header-home .specialize {
-    display: none; } }

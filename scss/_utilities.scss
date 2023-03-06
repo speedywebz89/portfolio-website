@@ -11,7 +11,6 @@
   padding: 0.1rem 3rem;
   transition: all 0.5s;
   cursor: pointer;
-
 }
 
 .btn {
@@ -25,7 +24,7 @@
     @extend %btn-shared;
     color: #333;
     background-color: $light-color;
-    border-radius:20px;
+    border-radius: 20px;
     padding: 0.1rem 2rem;
   }
 
@@ -35,12 +34,11 @@
     background-color: $dark-color;
     border: solid 2px white;
   }
-
 }
 
-button[class^='btn-']:hover,
-a[class^='btn-']:hover,
-input[class^='btn-']:hover {
+button[class^="btn-"]:hover,
+a[class^="btn-"]:hover,
+input[class^="btn-"]:hover {
   background-color: $main-color;
   color: rgb(254, 254, 254);
   font-weight: 600;
@@ -75,7 +73,7 @@ input[class^='btn-']:hover {
 .lead {
   font-size: 1.2rem;
   margin-bottom: 3rem;
-  font-family: 'Karla', sans-serif;
+  font-family: "Karla", sans-serif;
 }
 
 .text-center {
@@ -100,7 +98,6 @@ input[class^='btn-']:hover {
   &-4 {
     padding: 4rem 0;
   }
-
 }
 
 //margin classes
@@ -133,8 +130,9 @@ input[class^='btn-']:hover {
 }
 
 .bottom-line {
-  height: 2px;
-  width: 4rem;
+  height: 3px;
+  width: 90px;
+  border-radius: 50%;
   background: $main-color;
   display: block;
   margin: 0 auto 1rem auto;

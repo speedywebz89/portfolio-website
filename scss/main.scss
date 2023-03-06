@@ -27,13 +27,13 @@ h1,
 h2,
 h3,
 h4 {
-  font-family: "Karla", sans-serif;
+  font-family: "Montserrat";
   color: white;
 }
 
 h4 {
   margin-bottom: 40px;
-  font-family: "Karla", sans-serif;
+  font-family: "Montserrat", sans-serif;
   font-weight: 500;
   word-spacing: 5;
 }
@@ -46,19 +46,19 @@ p {
   padding: 0 50px 0 50px;
 }
 
-.about-txt {
-  font-size: 0.9rem;
-  line-height: 1.6;
-  word-spacing: 2px;
-}
-
 .about-p {
   padding-bottom: 15px;
 }
 
+.lead {
+  font-size: 1.2rem;
+  margin-bottom: 3rem;
+  font-family: "Montserrat", sans-serif;
+}
+
 .top-process {
   font-family: "Montserrat", sans-serif;
-  line-height: 2.2;
+  line-height: 1.9;
   font-size: 0.9rem;
   padding: 0px 5px;
   margin: 0 auto;
@@ -80,16 +80,17 @@ img {
 
 button {
   background-color: #1213131d;
-  padding: 8px;
+  padding: 5px 25px;
   margin: 0 3px;
-  border: solid 2px #00a3fa;
-  border-radius: 15px;
+  border: solid 2px #1fbd98;
+  border-radius: 5px;
   font-family: "Montserrat", sans-serif;
   font-weight: bold;
 
   &:hover {
-    background-color: #00a3fa;
+    background-color: #1fbd98;
     border-radius: 0px;
+    cursor: pointer;
   }
 }
 
@@ -184,7 +185,7 @@ a.weblinks:hover {
     background: rgba(0, 0, 0, 0.2) $bg-image 90% 25% / 100% no-repeat fixed;
     background-blend-mode: darken;
     background-size: cover;
-    height: 700px;
+    height: 100vh;
     color: white;
 
     //header text-content
@@ -192,7 +193,7 @@ a.weblinks:hover {
     .header-content {
       text-align: center;
       padding: 4%;
-      margin-top: 75px;
+      margin-top: 150px;
 
       h1 {
         font-size: 2.95rem;
@@ -301,7 +302,8 @@ a.weblinks:hover {
         top: 0;
         right: 0;
         font-size: 28px;
-        background: $main-color;
+        background: $light-color;
+        color: rgb(23, 22, 22);
         border-radius: 50%;
         height: 15px;
         width: 15px;
@@ -314,7 +316,7 @@ a.weblinks:hover {
 
       &-icon {
         border-radius: 50%;
-        background: #00a3fa;
+        background: #1fbd98;
         color: rgb(234, 234, 240);
         padding: 2rem;
         width: 70px;
@@ -326,7 +328,7 @@ a.weblinks:hover {
 
         &:hover {
           background: rgb(255, 255, 255);
-          color: #00a3fa;
+          color: #1fbd98;
           width: 85px;
           height: 85px;
           line-height: 85px;
@@ -345,96 +347,97 @@ a.weblinks:hover {
 //About Me page
 
 #about {
+  // About A
   &-a {
     .about-info {
       display: grid;
-      grid-template-areas: "bioimage bio bio";
-      grid-gap: 1rem;
-      height: 100%;
+      grid-template-areas:
+        "bioimage bio bio"
+        "aw1 aw2 aw3";
+      grid-gap: 1.2rem;
+      width: fit-content;
     }
 
-    //grid display area
+    // Grid Area
+    .bio-image {
+      grid-area: bioimage;
+    }
 
     .bio {
       grid-area: bio;
-      border-left: 1px solid $main-color;
-      padding-right: 3rem;
-      padding-left: 3rem;
-      padding-top: 3rem;
-      padding-bottom: 2rem;
-      line-height: 2;
-      background-size: cover;
-      height: 100%;
-
-      .btn-about {
-        border-radius: 20px;
-        padding: 0.1rem 3rem;
-        margin: 5% 0% 1% 0%;
-      }
-
-      .btn-about:hover {
-        color: #fff;
-        border-radius: 0px;
-        font-weight: 600;
-      }
+      border-left: 3px solid $main-color;
+      padding: 0.8rem;
     }
 
-    .dog-text {
-      font-size: 1.5rem;
-      margin-top: 1%;
-      padding: 3px;
+    .award-1 {
+      grid-area: aw1;
     }
 
-    .bio-img {
-      position: relative;
-      height: 100%;
-      width: 100%;
+    .award-2 {
+      grid-area: aw2;
+    }
+
+    .award-3 {
+      grid-area: aw3;
     }
 
     .award-1 .fas,
     .award-2 .fas,
     .award-3 .fas {
       color: $main-color;
-      margin-top: 3rem;
     }
 
-    .about {
-      height: 100%;
+    .section-title {
+      font-family: "Montserrat";
+    }
+
+    .lead {
+      font-family: "Montserrat";
+      font-size: 16px;
+    }
+
+    /***********TEXT FOR THE ABOUT ME INFO***********/
+
+    .about-txt {
+      font-family: "Montserrat";
+      font-size: 24px;
+      line-height: 1.5;
+      padding: 5px;
+      margin-top: 90px;
+      padding: 20px 20px 30px 20px;
     }
   }
-
-  &-b {
-    .progress {
-      overflow: hidden;
-      //height:40px;
-      background: $medium-color;
-      color: rgb(15, 12, 12);
-      font-size: 0.6rem;
-      margin: auto;
-      text-align: center;
-      border-radius: 5px;
-    }
-
-    padding-right: 15px;
-    padding-bottom: 50px;
-    padding-left: 15px;
-  }
+  // About B
 
   //about
 
   &-c {
+    /***************TECHNOLOGIES IMAGE**********************/
     .logo2 {
       width: 100%;
-      height: 320px;
+      height: 310px;
     }
 
     .container-tech {
-      height: 325px;
-      border-top: solid 1px #00a3fa;
-      border-right: solid 1px #00a3fa;
-      border-left: solid 1px #00a3fa;
+      height: 310px;
+      border-top: solid 3px #1fbd98;
+      padding-top: 15px;
+      margin-bottom: 100px;
     }
   }
+}
+
+.btn-about {
+  border-radius: 20px;
+  padding: 0.1rem 3rem;
+  margin-top: 15px;
+  margin-bottom: 15px;
+}
+
+.btn-about:hover {
+  color: #fff;
+  border-radius: 0px;
+  font-weight: 600;
 }
 
 //contact page
@@ -661,6 +664,10 @@ a.weblinks:hover {
       );
     }
   }
+}
+
+.SERVICE {
+  color: rgb(83, 178, 255);
 }
 
 //import Media queries
