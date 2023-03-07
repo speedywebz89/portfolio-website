@@ -14,6 +14,10 @@
     font-family: "Montserrat";
     font-size: 16px;
   }
+  p.about-txt {
+    font-size: 18px !important;
+    margin-top: 60px !important;
+  }
 }
 
 @media (max-width: 1400px) {
@@ -21,11 +25,10 @@
     height: 100vh;
 
     .header-content {
-      margin-top: 120px;
+      margin-top: 150px;
 
       h1 {
         font-size: 2.5rem;
-        margin-top: 70px;
       }
 
       .specialize {
@@ -59,6 +62,13 @@
   }
   p.about-txt {
     font-size: 17px !important;
+    margin-top: 70px !important;
+  }
+}
+
+@media (max-width: 1278px) {
+  p.about-txt {
+    font-size: 16px !important;
     margin-top: 50px !important;
   }
 }
@@ -149,6 +159,10 @@
       height: 100%;
     }
   }
+  p.about-txt {
+    font-size: 14px !important;
+    margin-top: 10px !important;
+  }
 }
 
 @media (max-width: 720px) {
@@ -168,16 +182,14 @@
   #header {
     &-home {
       height: 100vh;
-      border-bottom: 3px solid $main-color;
+      border-bottom: 2px solid $main-color;
       background-position: 50% 50%;
 
       .navbar {
         flex-direction: column;
         align-items: center;
         font-size: 1rem;
-        margin-left: -45px;
-        height: 50px;
-        padding: 20px;
+        height: 60px;
 
         li {
           padding: 1rem;
@@ -203,7 +215,8 @@
     }
 
     &-inner {
-      height: 5rem;
+      height: 4rem;
+      margin: 0 auto;
     }
   }
 
@@ -479,7 +492,7 @@
     font-size: 14px !important;
     margin-top: 10px !important;
     line-height: 1.5;
-    padding-bottom: 5px !important;
+    padding-bottom: 1px !important;
   }
   p.item-text-category {
     font-size: 10px;

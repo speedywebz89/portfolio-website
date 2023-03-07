@@ -10,7 +10,7 @@
 
 .item {
   position: relative;
-  background: #000000ce;
+  background: linear-gradient(rgb(95, 95, 95), rgb(9, 9, 9));
   overflow: hidden;
 
   &::after {
@@ -125,7 +125,7 @@
 }
 
 .SW {
-  color: rgb(247, 204, 49);
+  color: rgb(45, 202, 250);
 }
 
 .calc {

@@ -12,7 +12,7 @@
 
 .btn-main {
   color: #333;
-  background-color: #1fbd98; }
+  background-color: #fcdc71; }
 
 .btn-light {
   color: #333;
@@ -28,15 +28,15 @@
 button[class^="btn-"]:hover,
 a[class^="btn-"]:hover,
 input[class^="btn-"]:hover {
-  background-color: #1fbd98;
-  color: #fefefe;
+  background-color: #fcdc71;
+  color: #353535;
   font-weight: 600;
   font-style: italic;
   border-radius: 0px; }
 
 .bg-main {
-  background: #1fbd98;
-  color: white; }
+  background: #fcdc71;
+  color: black; }
 
 .bg-dark {
   background: #403f3f;
@@ -94,7 +94,7 @@ input[class^="btn-"]:hover {
   height: 3px;
   width: 90px;
   border-radius: 50%;
-  background: #1fbd98;
+  background: #fcdc71;
   display: block;
   margin: 0 auto 1rem auto; }
 
@@ -106,7 +106,7 @@ input[class^="btn-"]:hover {
 /*overlay PROJECTS*/
 .item {
   position: relative;
-  background: #000000ce;
+  background: linear-gradient(#5f5f5f, #090909);
   overflow: hidden; }
   .item::after {
     content: "";
@@ -187,7 +187,7 @@ input[class^="btn-"]:hover {
   color: #51a195; }
 
 .SW {
-  color: #f7cc31; }
+  color: #2dcafa; }
 
 .calc {
   color: rgba(158, 219, 134, 0.94); }
@@ -263,17 +263,19 @@ p {
 img {
   width: 100%; }
 
+/************BUTTONS FOR WORK ANIMATIONS**************/
 button {
   background-color: #1213131d;
   padding: 5px 25px;
   margin: 0 3px;
-  border: solid 2px #1fbd98;
+  border: solid 2px #fcdc71;
   border-radius: 5px;
   font-family: "Montserrat", sans-serif;
   font-weight: bold; }
   button:hover {
-    background-color: #1fbd98;
+    background-color: black;
     border-radius: 0px;
+    border: 2px solid white;
     cursor: pointer; }
 
 .navbar.top {
@@ -286,10 +288,6 @@ button {
   color: #ffff;
   font-size: 1rem;
   font-weight: 400; }
-
-a.weblinks:hover {
-  color: white;
-  font-weight: 800; }
 
 .navbar {
   display: flex;
@@ -305,23 +303,23 @@ a.weblinks:hover {
   .navbar ul {
     display: flex; }
   .navbar li {
-    padding: 1rem 1.3rem; }
+    padding: 1rem 1.1rem; }
   .navbar a {
     text-decoration: none;
     color: white;
     text-transform: uppercase;
-    font-family: "Karla", sans-serif;
+    font-family: "Montserrat";
     border-bottom: 1px transparent solid;
     padding-bottom: 1rem;
     transition: border-color 0.6s; }
     .navbar a:hover {
       font-style: italic;
-      color: #1fbd98;
+      color: #fcdc71;
       opacity: none;
       font-size: 1.1rem;
-      font-weight: 800; }
+      font-weight: 200; }
     .navbar a:current {
-      color: #1fbd98; }
+      color: #fcdc71; }
   .navbar .nav-heading {
     font-family: "Montserrat", sans-serif;
     margin-top: 10px;
@@ -338,7 +336,7 @@ a.weblinks:hover {
     font-size: 1rem; }
 
 #header-home {
-  background: rgba(0, 0, 0, 0.2) url("../img/showcase.jpg") 90% 25%/100% no-repeat fixed;
+  background: rgba(0, 0, 0, 0.4) url("../img/showcase.jpg") 90% 25%/100% no-repeat fixed;
   background-blend-mode: darken;
   background-size: cover;
   height: 100vh;
@@ -346,18 +344,19 @@ a.weblinks:hover {
   #header-home .header-content {
     text-align: center;
     padding: 4%;
-    margin-top: 150px; }
+    margin-top: 170px; }
     #header-home .header-content h1 {
       font-size: 2.95rem;
       margin-top: 5rem; }
     #header-home .header-content .btn-pro {
       text-decoration: underline; }
     #header-home .header-content .txt-type {
-      color: #1fbd98; }
+      color: #fcdc71;
+      font-style: italic; }
     #header-home .header-content .specialize {
       font-size: 0.99rem;
       color: #f4f4f8;
-      margin-bottom: 3rem;
+      margin-bottom: 25px;
       font-family: "Montserrat", sans-serif; }
 
 #header-inner {
@@ -365,7 +364,7 @@ a.weblinks:hover {
   background-blend-mode: darken;
   background-size: cover;
   height: 4.5rem;
-  border-bottom: 3px solid #1fbd98;
+  border-bottom: 3px solid #fcdc71;
   margin-top: 0 auto; }
 
 #home-a .specials {
@@ -375,7 +374,7 @@ a.weblinks:hover {
   grid-template-columns: repeat(4, 1fr); }
 
 #home-a .fas {
-  color: #1fbd98;
+  color: #fcdc71;
   padding-bottom: 0.4rem; }
 
 #home-b .stats {
@@ -409,8 +408,8 @@ a.weblinks:hover {
     top: 0;
     right: 0;
     font-size: 28px;
-    background: white;
-    color: #171616;
+    background: #008184;
+    color: #fcdc71;
     border-radius: 50%;
     height: 15px;
     width: 15px;
@@ -419,8 +418,8 @@ a.weblinks:hover {
     transition: all 1s; }
   #home-c .process-icon {
     border-radius: 50%;
-    background: #1fbd98;
-    color: #eaeaf0;
+    background: #fcdc71;
+    color: #008184;
     padding: 2rem;
     width: 70px;
     height: 70px;
@@ -429,15 +428,15 @@ a.weblinks:hover {
     position: relative;
     transition: all 1s; }
     #home-c .process-icon:hover {
-      background: white;
-      color: #1fbd98;
+      background: #008184;
+      color: #fcdc71;
       width: 85px;
       height: 85px;
       line-height: 85px; }
       #home-c .process-icon:hover .process-step {
-        background: #111213;
-        color: white;
-        transform: rotate(360deg); }
+        background: #fcdc71;
+        color: #008184;
+        transform: rotate(15deg); }
 
 #about-a {
   /***********TEXT FOR THE ABOUT ME INFO***********/ }
@@ -450,7 +449,7 @@ a.weblinks:hover {
     grid-area: bioimage; }
   #about-a .bio {
     grid-area: bio;
-    border-left: 3px solid #1fbd98;
+    border-left: 3px solid #fcdc71;
     padding: 0.8rem; }
   #about-a .award-1 {
     grid-area: aw1; }
@@ -461,7 +460,7 @@ a.weblinks:hover {
   #about-a .award-1 .fas,
   #about-a .award-2 .fas,
   #about-a .award-3 .fas {
-    color: #1fbd98; }
+    color: #fcdc71; }
   #about-a .section-title {
     font-family: "Montserrat"; }
   #about-a .lead {
@@ -469,10 +468,10 @@ a.weblinks:hover {
     font-size: 16px; }
   #about-a .about-txt {
     font-family: "Montserrat";
-    font-size: 24px;
+    font-size: 22px;
     line-height: 1.5;
     padding: 5px;
-    margin-top: 90px;
+    margin-top: 100px;
     padding: 20px 20px 30px 20px; }
 
 #about-c {
@@ -482,7 +481,7 @@ a.weblinks:hover {
     height: 310px; }
   #about-c .container-tech {
     height: 310px;
-    border-top: solid 3px #1fbd98;
+    border-top: solid 3px #fcdc71;
     padding-top: 15px;
     margin-bottom: 100px; }
 
@@ -540,9 +539,13 @@ a.weblinks:hover {
 #contact-c h1 {
   text-align: center;
   font-size: 3rem;
-  color: #1fbd98;
+  color: #fcdc71;
   font-family: "League Spartan" sans-serif;
   font-style: italic; }
+
+.contact-cta {
+  font-family: "Montserrat" !important;
+  color: #d7d7d7 !important; }
 
 #main-footer {
   background: #403f3f;
@@ -564,7 +567,7 @@ a.weblinks:hover {
       text-align: center;
       padding: 0.5rem; }
       #main-footer .footer-content .social .fab:hover {
-        background: #75badf18; }
+        background: #fcdc71; }
     #main-footer .footer-content .fa-linkedin {
       color: #0e455e;
       background: #f09433;
@@ -603,16 +606,18 @@ a.weblinks:hover {
     margin-top: 90px; }
   .lead {
     font-family: "Montserrat";
-    font-size: 16px; } }
+    font-size: 16px; }
+  p.about-txt {
+    font-size: 18px !important;
+    margin-top: 60px !important; } }
 
 @media (max-width: 1400px) {
   #header-home {
     height: 100vh; }
     #header-home .header-content {
-      margin-top: 120px; }
+      margin-top: 150px; }
       #header-home .header-content h1 {
-        font-size: 2.5rem;
-        margin-top: 70px; }
+        font-size: 2.5rem; }
       #header-home .header-content .specialize {
         font-size: 0.9rem;
         margin-top: auto auto; }
@@ -631,6 +636,11 @@ a.weblinks:hover {
     margin: auto auto; }
   p.about-txt {
     font-size: 17px !important;
+    margin-top: 70px !important; } }
+
+@media (max-width: 1278px) {
+  p.about-txt {
+    font-size: 16px !important;
     margin-top: 50px !important; } }
 
 @media (max-width: 1024px) {
@@ -679,7 +689,10 @@ a.weblinks:hover {
     width: 100%; }
   #about-c .logo2 {
     width: 100%;
-    height: 100%; } }
+    height: 100%; }
+  p.about-txt {
+    font-size: 14px !important;
+    margin-top: 10px !important; } }
 
 @media (max-width: 720px) {
   #navbar .nav-logo {
@@ -690,15 +703,13 @@ a.weblinks:hover {
 @media (max-width: 640px) {
   #header-home {
     height: 100vh;
-    border-bottom: 3px solid #1fbd98;
+    border-bottom: 2px solid #fcdc71;
     background-position: 50% 50%; }
     #header-home .navbar {
       flex-direction: column;
       align-items: center;
       font-size: 1rem;
-      margin-left: -45px;
-      height: 50px;
-      padding: 20px; }
+      height: 60px; }
       #header-home .navbar li {
         padding: 1rem; }
       #header-home .navbar .text-primary {
@@ -711,7 +722,8 @@ a.weblinks:hover {
     #header-home .text-primary {
       display: none; }
   #header-inner {
-    height: 5rem; }
+    height: 4rem;
+    margin: 0 auto; }
   .specialize {
     font-size: 1rem;
     padding-top: 2.5rem; }
@@ -846,7 +858,7 @@ a.weblinks:hover {
     font-size: 14px !important;
     margin-top: 10px !important;
     line-height: 1.5;
-    padding-bottom: 5px !important; }
+    padding-bottom: 1px !important; }
   p.item-text-category {
     font-size: 10px; } }
 

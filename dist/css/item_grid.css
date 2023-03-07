@@ -6,7 +6,7 @@
 /*overlay PROJECTS*/
 .item {
   position: relative;
-  background: #000000ce;
+  background: linear-gradient(#5f5f5f, #090909);
   overflow: hidden; }
   .item::after {
     content: "";
@@ -87,7 +87,7 @@
   color: #51a195; }
 
 .SW {
-  color: #f7cc31; }
+  color: #2dcafa; }
 
 .calc {
   color: rgba(158, 219, 134, 0.94); }

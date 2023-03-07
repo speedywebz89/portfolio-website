@@ -78,18 +78,20 @@ img {
   width: 100%;
 }
 
+/************BUTTONS FOR WORK ANIMATIONS**************/
 button {
   background-color: #1213131d;
   padding: 5px 25px;
   margin: 0 3px;
-  border: solid 2px #1fbd98;
+  border: solid 2px #fcdc71;
   border-radius: 5px;
   font-family: "Montserrat", sans-serif;
   font-weight: bold;
 
   &:hover {
-    background-color: #1fbd98;
+    background-color: black;
     border-radius: 0px;
+    border: 2px solid white;
     cursor: pointer;
   }
 }
@@ -106,11 +108,6 @@ button {
   color: #ffff;
   font-size: 1rem;
   font-weight: 400;
-}
-
-a.weblinks:hover {
-  color: white;
-  font-weight: 800;
 }
 
 .navbar {
@@ -130,14 +127,14 @@ a.weblinks:hover {
   }
 
   li {
-    padding: 1rem 1.3rem;
+    padding: 1rem 1.1rem;
   }
 
   a {
     text-decoration: none;
     color: rgb(255, 255, 255);
     text-transform: uppercase;
-    font-family: "Karla", sans-serif;
+    font-family: "Montserrat";
     border-bottom: 1px transparent solid;
     padding-bottom: 1rem;
     transition: border-color 0.6s;
@@ -147,7 +144,7 @@ a.weblinks:hover {
       color: $main-color;
       opacity: none;
       font-size: 1.1rem;
-      font-weight: 800;
+      font-weight: 200;
     }
 
     &:current {
@@ -182,7 +179,7 @@ a.weblinks:hover {
 
 #header {
   &-home {
-    background: rgba(0, 0, 0, 0.2) $bg-image 90% 25% / 100% no-repeat fixed;
+    background: rgba(0, 0, 0, 0.4) $bg-image 90% 25% / 100% no-repeat fixed;
     background-blend-mode: darken;
     background-size: cover;
     height: 100vh;
@@ -193,7 +190,7 @@ a.weblinks:hover {
     .header-content {
       text-align: center;
       padding: 4%;
-      margin-top: 150px;
+      margin-top: 170px;
 
       h1 {
         font-size: 2.95rem;
@@ -206,12 +203,13 @@ a.weblinks:hover {
 
       .txt-type {
         color: $main-color;
+        font-style: italic;
       }
 
       .specialize {
         font-size: 0.99rem;
         color: rgb(244, 244, 248);
-        margin-bottom: 3rem;
+        margin-bottom: 25px;
         font-family: "Montserrat", sans-serif;
       }
     }
@@ -302,8 +300,8 @@ a.weblinks:hover {
         top: 0;
         right: 0;
         font-size: 28px;
-        background: $light-color;
-        color: rgb(23, 22, 22);
+        background: #008184;
+        color: #fcdc71;
         border-radius: 50%;
         height: 15px;
         width: 15px;
@@ -316,8 +314,8 @@ a.weblinks:hover {
 
       &-icon {
         border-radius: 50%;
-        background: #1fbd98;
-        color: rgb(234, 234, 240);
+        background: #fcdc71;
+        color: #008184;
         padding: 2rem;
         width: 70px;
         height: 70px;
@@ -327,16 +325,16 @@ a.weblinks:hover {
         transition: all 1s;
 
         &:hover {
-          background: rgb(255, 255, 255);
-          color: #1fbd98;
+          background: #008184;
+          color: #fcdc71;
           width: 85px;
           height: 85px;
           line-height: 85px;
 
           .process-step {
-            background: #111213;
-            color: $light-color;
-            transform: rotate(360deg);
+            background: #fcdc71;
+            color: #008184;
+            transform: rotate(15deg);
           }
         }
       }
@@ -400,10 +398,10 @@ a.weblinks:hover {
 
     .about-txt {
       font-family: "Montserrat";
-      font-size: 24px;
+      font-size: 22px;
       line-height: 1.5;
       padding: 5px;
-      margin-top: 90px;
+      margin-top: 100px;
       padding: 20px 20px 30px 20px;
     }
   }
@@ -420,7 +418,7 @@ a.weblinks:hover {
 
     .container-tech {
       height: 310px;
-      border-top: solid 3px #1fbd98;
+      border-top: solid 3px #fcdc71;
       padding-top: 15px;
       margin-bottom: 100px;
     }
@@ -520,6 +518,11 @@ a.weblinks:hover {
   }
 }
 
+.contact-cta {
+  font-family: "Montserrat" !important;
+  color: rgb(215, 215, 215) !important;
+}
+
 //footer
 
 #main-footer {
@@ -545,7 +548,7 @@ a.weblinks:hover {
       padding: 0.5rem;
 
       &:hover {
-        background: #75badf18;
+        background: #fcdc71;
       }
     }
 
