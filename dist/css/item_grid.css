@@ -75,10 +75,11 @@
 
 .TGauto {
   color: #be481d;
-  font-size: 1.7rem; }
+  font-size: 1.3rem; }
 
 .dice {
-  color: #1eb6b1; }
+  color: #1eb6b1;
+  font-size: 1.3rem; }
 
 .florida {
   color: #6a74e6; }
@@ -87,7 +88,8 @@
   color: #51a195; }
 
 .SW {
-  color: #2dcafa; }
+  color: #74f496;
+  font-size: 1.3rem; }
 
 .calc {
   color: rgba(158, 219, 134, 0.94); }
@@ -96,7 +98,13 @@
   color: #b05caf; }
 
 .bay {
-  color: #d49d3e; }
+  color: #d49d3e;
+  font-size: 1.3rem; }
 
 .port {
-  color: rgba(246, 234, 13, 0.999); }
+  color: rgba(246, 234, 13, 0.999);
+  font-size: 1.3rem; }
+
+.SERVICE {
+  color: #53b2ff;
+  font-size: 1.3rem; }

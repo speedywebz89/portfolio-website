@@ -179,7 +179,7 @@ button {
 
 #header {
   &-home {
-    background: rgba(0, 0, 0, 0.4) $bg-image 90% 25% / 100% no-repeat fixed;
+    background: rgba(0, 0, 0, 0.2) $bg-image 90% 25% / 100% no-repeat fixed;
     background-blend-mode: darken;
     background-size: cover;
     height: 100vh;
@@ -667,10 +667,6 @@ button {
       );
     }
   }
-}
-
-.SERVICE {
-  color: rgb(83, 178, 255);
 }
 
 //import Media queries

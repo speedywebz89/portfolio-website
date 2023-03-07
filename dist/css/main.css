@@ -175,10 +175,11 @@ input[class^="btn-"]:hover {
 
 .TGauto {
   color: #be481d;
-  font-size: 1.7rem; }
+  font-size: 1.3rem; }
 
 .dice {
-  color: #1eb6b1; }
+  color: #1eb6b1;
+  font-size: 1.3rem; }
 
 .florida {
   color: #6a74e6; }
@@ -187,7 +188,8 @@ input[class^="btn-"]:hover {
   color: #51a195; }
 
 .SW {
-  color: #2dcafa; }
+  color: #74f496;
+  font-size: 1.3rem; }
 
 .calc {
   color: rgba(158, 219, 134, 0.94); }
@@ -196,10 +198,16 @@ input[class^="btn-"]:hover {
   color: #b05caf; }
 
 .bay {
-  color: #d49d3e; }
+  color: #d49d3e;
+  font-size: 1.3rem; }
 
 .port {
-  color: rgba(246, 234, 13, 0.999); }
+  color: rgba(246, 234, 13, 0.999);
+  font-size: 1.3rem; }
+
+.SERVICE {
+  color: #53b2ff;
+  font-size: 1.3rem; }
 
 * {
   margin: 0;
@@ -336,7 +344,7 @@ button {
     font-size: 1rem; }
 
 #header-home {
-  background: rgba(0, 0, 0, 0.4) url("../img/showcase.jpg") 90% 25%/100% no-repeat fixed;
+  background: rgba(0, 0, 0, 0.2) url("../img/showcase.jpg") 90% 25%/100% no-repeat fixed;
   background-blend-mode: darken;
   background-size: cover;
   height: 100vh;
@@ -592,9 +600,6 @@ button {
       background: -webkit-linear-gradient(90deg, #f1f0ee 0%, #aca9a8 25%, #757373 50%, #74737494 75%, #7978786c 100%);
       background: linear-gradient(90deg, #f1f0ee 0%, #aca9a8 25%, #757373 50%, #807f7f94 75%, #8f8d8d6c 100%); }
 
-.SERVICE {
-  color: #53b2ff; }
-
 @media (max-width: 1650px) {
   p.about-txt {
     font-size: 22px !important;
@@ -843,7 +848,7 @@ button {
   .about-txt {
     padding: 1px 1px 10px 1px; }
   #header-home {
-    background: rgba(0, 0, 0, 0.3) url("../img/showcase.jpg") 50% 50%/100% no-repeat fixed;
+    background: rgba(0, 0, 0, 0.3) url("../img/showcase.jpg") 80% 90%/100% no-repeat fixed;
     background-blend-mode: darken;
     background-size: cover;
     color: white; }
