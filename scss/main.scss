@@ -179,10 +179,10 @@ button {
 
 #header {
   &-home {
-    background: rgba(0, 0, 0, 0.2) $bg-image 90% 25% / 100% no-repeat fixed;
+    background: rgba(0, 0, 0, 0.4) $bg-image 90% 25% / 100% no-repeat fixed;
     background-blend-mode: darken;
     background-size: cover;
-    height: 100vh;
+    height: 99vh;
     color: white;
 
     //header text-content
@@ -327,14 +327,14 @@ button {
         &:hover {
           background: #008184;
           color: #fcdc71;
-          width: 85px;
-          height: 85px;
+          width: 87px;
+          height: 87px;
           line-height: 85px;
 
           .process-step {
             background: #fcdc71;
             color: #008184;
-            transform: rotate(15deg);
+            transform: rotate(375deg);
           }
         }
       }
@@ -398,8 +398,8 @@ button {
 
     .about-txt {
       font-family: "Montserrat";
-      font-size: 22px;
-      line-height: 1.5;
+      font-size: 20px;
+      line-height: 1.7;
       padding: 5px;
       margin-top: 100px;
       padding: 20px 20px 30px 20px;
