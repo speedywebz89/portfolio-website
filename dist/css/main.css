@@ -321,7 +321,6 @@ button {
     padding-bottom: 1rem;
     transition: border-color 0.6s; }
     .navbar a:hover {
-      font-style: italic;
       color: #fcdc71;
       opacity: none;
       font-size: 1.1rem;
@@ -352,10 +351,14 @@ button {
   #header-home .header-content {
     text-align: center;
     padding: 4%;
-    margin-top: 170px; }
+    margin-top: 218px; }
     #header-home .header-content h1 {
       font-size: 2.95rem;
       margin-top: 5rem; }
+    #header-home .header-content .header-lighttxt {
+      color: #fcdc71;
+      font-size: 16px;
+      font-style: italic; }
     #header-home .header-content .btn-pro {
       text-decoration: underline; }
     #header-home .header-content .txt-type {
@@ -620,7 +623,7 @@ button {
   #header-home {
     height: 100vh; }
     #header-home .header-content {
-      margin-top: 150px; }
+      margin-top: 245px; }
       #header-home .header-content h1 {
         font-size: 2.5rem; }
       #header-home .header-content .specialize {

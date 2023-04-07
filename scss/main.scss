@@ -140,7 +140,6 @@ button {
     transition: border-color 0.6s;
 
     &:hover {
-      font-style: italic;
       color: $main-color;
       opacity: none;
       font-size: 1.1rem;
@@ -190,11 +189,17 @@ button {
     .header-content {
       text-align: center;
       padding: 4%;
-      margin-top: 170px;
+      margin-top: 218px;
 
       h1 {
         font-size: 2.95rem;
         margin-top: 5rem;
+      }
+
+      .header-lighttxt{
+        color:#fcdc71;
+        font-size: 16px;
+        font-style: italic;
       }
 
       .btn-pro {
