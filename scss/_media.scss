@@ -201,7 +201,7 @@
       }
 
       .header-content {
-        margin-top: 160px;
+        padding-top: 5rem;
 
         h1 {
           font-size: 1.7rem;
@@ -342,15 +342,17 @@
 @media (max-width: 580px) {
   #header-home {
     .header-content {
-      padding-top: 1rem;
+      padding-top: 4rem;
 
       h1 {
         font-size: 1.5rem;
-        margin-top: 6rem;
       }
-
       .specialize {
-        font-size: 0.7rem;
+        font-size: 13px;
+      }
+      .header-lighttxt {
+        color: #fcdc71;
+        font-size: 13px;
       }
     }
   }
@@ -427,7 +429,7 @@
     .header-content {
       h1 {
         font-size: 1.1rem;
-        margin-top: 112px;
+        margin-top: 1px;
       }
 
       .specialize {

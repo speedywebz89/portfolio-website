@@ -196,10 +196,9 @@ button {
         margin-top: 5rem;
       }
 
-      .header-lighttxt{
-        color:#fcdc71;
-        font-size: 16px;
-        font-style: italic;
+      .header-lighttxt {
+        color: #fcdc71;
+        font-size: 15px;
       }
 
       .btn-pro {
@@ -212,8 +211,8 @@ button {
       }
 
       .specialize {
-        font-size: 0.99rem;
-        color: rgb(244, 244, 248);
+        font-size: 15px;
+        color: rgb(222, 222, 222);
         margin-bottom: 25px;
         font-family: "Montserrat", sans-serif;
       }
@@ -305,8 +304,8 @@ button {
         top: 0;
         right: 0;
         font-size: 28px;
-        background: #008184;
-        color: #fcdc71;
+        background: #277cb5;
+        color: #2d2d2d;
         border-radius: 50%;
         height: 15px;
         width: 15px;
@@ -319,8 +318,8 @@ button {
 
       &-icon {
         border-radius: 50%;
-        background: #fcdc71;
-        color: #008184;
+        background: #2d2d2d;
+        color: #8cc84b;
         padding: 2rem;
         width: 70px;
         height: 70px;
@@ -330,15 +329,15 @@ button {
         transition: all 1s;
 
         &:hover {
-          background: #008184;
-          color: #fcdc71;
+          background: #8cc84b;
+          color: #2d2d2d;
           width: 87px;
           height: 87px;
           line-height: 85px;
 
           .process-step {
-            background: #fcdc71;
-            color: #008184;
+            background: #2d2d2d;
+            color: #277cb5;
             transform: rotate(375deg);
           }
         }

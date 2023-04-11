@@ -70,6 +70,15 @@ input[class^="btn-"]:hover {
 .py-4 {
   padding: 4rem 0; }
 
+.py-r-1 {
+  padding-right: 2px; }
+
+.py-r-2 {
+  padding-right: 4px; }
+
+.py-r-3 {
+  padding-right: 6px; }
+
 .my-1 {
   margin: 1rem 0; }
 
@@ -351,22 +360,21 @@ button {
   #header-home .header-content {
     text-align: center;
     padding: 4%;
-    margin-top: 218px; }
+    margin-top: 212px; }
     #header-home .header-content h1 {
       font-size: 2.95rem;
       margin-top: 5rem; }
     #header-home .header-content .header-lighttxt {
       color: #fcdc71;
-      font-size: 16px;
-      font-style: italic; }
+      font-size: 15px; }
     #header-home .header-content .btn-pro {
       text-decoration: underline; }
     #header-home .header-content .txt-type {
       color: #fcdc71;
       font-style: italic; }
     #header-home .header-content .specialize {
-      font-size: 0.99rem;
-      color: #f4f4f8;
+      font-size: 15px;
+      color: #dedede;
       margin-bottom: 25px;
       font-family: "Montserrat", sans-serif; }
 
@@ -419,8 +427,8 @@ button {
     top: 0;
     right: 0;
     font-size: 28px;
-    background: #008184;
-    color: #fcdc71;
+    background: #277cb5;
+    color: #2d2d2d;
     border-radius: 50%;
     height: 15px;
     width: 15px;
@@ -429,8 +437,8 @@ button {
     transition: all 1s; }
   #home-c .process-icon {
     border-radius: 50%;
-    background: #fcdc71;
-    color: #008184;
+    background: #2d2d2d;
+    color: #8cc84b;
     padding: 2rem;
     width: 70px;
     height: 70px;
@@ -439,14 +447,14 @@ button {
     position: relative;
     transition: all 1s; }
     #home-c .process-icon:hover {
-      background: #008184;
-      color: #fcdc71;
+      background: #8cc84b;
+      color: #2d2d2d;
       width: 87px;
       height: 87px;
       line-height: 85px; }
       #home-c .process-icon:hover .process-step {
-        background: #fcdc71;
-        color: #008184;
+        background: #2d2d2d;
+        color: #277cb5;
         transform: rotate(375deg); }
 
 #about-a {
@@ -723,7 +731,7 @@ button {
       #header-home .navbar .text-primary {
         font-size: 2rem; }
     #header-home .header-content {
-      margin-top: 160px; }
+      padding-top: 5rem; }
       #header-home .header-content h1 {
         font-size: 1.7rem;
         margin-top: 70px; }
@@ -783,12 +791,14 @@ button {
 
 @media (max-width: 580px) {
   #header-home .header-content {
-    padding-top: 1rem; }
+    padding-top: 4rem; }
     #header-home .header-content h1 {
-      font-size: 1.5rem;
-      margin-top: 6rem; }
+      font-size: 1.5rem; }
     #header-home .header-content .specialize {
-      font-size: 0.7rem; }
+      font-size: 13px; }
+    #header-home .header-content .header-lighttxt {
+      color: #fcdc71;
+      font-size: 13px; }
   .my-tech {
     font-size: 1.8rem; }
   .about-txt {
@@ -827,7 +837,7 @@ button {
     height: 100vh !important; }
     #header-home .header-content h1 {
       font-size: 1.1rem;
-      margin-top: 112px; }
+      margin-top: 1px; }
     #header-home .header-content .specialize {
       padding: 1px;
       margin-top: 0.5rem; }
