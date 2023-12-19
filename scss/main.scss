@@ -178,7 +178,7 @@ button {
 
 #header {
   &-home {
-    background: rgba(0, 0, 0, 0.4) $bg-image 90% 25% / 100% no-repeat fixed;
+    background: rgba(0, 0, 0, 0.1) $bg-image 90% 25% / 100% no-repeat fixed;
     background-blend-mode: darken;
     background-size: cover;
     height: 99vh;
@@ -223,7 +223,7 @@ button {
 
   &-inner {
     background: rgba(0, 0, 0, 0) $bg-image 50% 60% / 100% no-repeat fixed;
-    background-blend-mode: darken;
+    /*background-blend-mode: darken;*/
     background-size: cover;
     height: 4.5rem;
     border-bottom: 3px solid $main-color;

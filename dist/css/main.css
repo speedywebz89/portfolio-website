@@ -216,7 +216,8 @@ input[class^="btn-"]:hover {
 
 .SERVICE {
   color: #53b2ff;
-  font-size: 1.3rem; }
+  font-size: 1.3rem;
+ }
 
 * {
   margin: 0;
