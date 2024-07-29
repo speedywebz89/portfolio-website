@@ -83,15 +83,15 @@ button {
   background-color: #1213131d;
   padding: 5px 25px;
   margin: 0 3px;
-  border: solid 2px #fcdc71;
+  border: solid 2px #ec7625;
   border-radius: 5px;
   font-family: "Montserrat", sans-serif;
   font-weight: bold;
 
   &:hover {
-    background-color: black;
+    background-color: #ec7625;
     border-radius: 0px;
-    border: 2px solid white;
+    border: 1px solid #2d2d2d;
     cursor: pointer;
   }
 }
@@ -178,7 +178,7 @@ button {
 
 #header {
   &-home {
-    background: rgba(0, 0, 0, 0.1) $bg-image 90% 25% / 100% no-repeat fixed;
+    background: rgba(0, 0, 0, 0.1) $bg-image 10% 25% / 100% no-repeat fixed;
     background-blend-mode: darken;
     background-size: cover;
     height: 99vh;
@@ -189,7 +189,7 @@ button {
     .header-content {
       text-align: center;
       padding: 4%;
-      margin-top: 212px;
+      margin-top: 185px;
 
       h1 {
         font-size: 2.95rem;
@@ -197,7 +197,7 @@ button {
       }
 
       .header-lighttxt {
-        color: #fcdc71;
+        color: #ec7625;
         font-size: 15px;
       }
 
@@ -222,7 +222,7 @@ button {
   // Header inner
 
   &-inner {
-    background: rgba(0, 0, 0, 0) $bg-image 50% 60% / 100% no-repeat fixed;
+    background: rgba(0, 0, 0, 0) $bg-image 10% 10% / 100% no-repeat fixed;
     /*background-blend-mode: darken;*/
     background-size: cover;
     height: 4.5rem;
@@ -304,7 +304,7 @@ button {
         top: 0;
         right: 0;
         font-size: 28px;
-        background: #277cb5;
+        background: #e6e2df;
         color: #2d2d2d;
         border-radius: 50%;
         height: 15px;
@@ -319,7 +319,7 @@ button {
       &-icon {
         border-radius: 50%;
         background: #2d2d2d;
-        color: #8cc84b;
+        color: #ec7625;
         padding: 2rem;
         width: 70px;
         height: 70px;
@@ -329,7 +329,7 @@ button {
         transition: all 1s;
 
         &:hover {
-          background: #8cc84b;
+          background: #e6e0dd;
           color: #2d2d2d;
           width: 87px;
           height: 87px;
@@ -337,7 +337,7 @@ button {
 
           .process-step {
             background: #2d2d2d;
-            color: #277cb5;
+            color: #ec7625;
             transform: rotate(375deg);
           }
         }
@@ -422,7 +422,7 @@ button {
 
     .container-tech {
       height: 310px;
-      border-top: solid 3px #fcdc71;
+      border-top: solid 3px #ec7625;
       padding-top: 15px;
       margin-bottom: 100px;
     }
@@ -552,7 +552,7 @@ button {
       padding: 0.5rem;
 
       &:hover {
-        background: #fcdc71;
+        background: #ec7625;
       }
     }
 

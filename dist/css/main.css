@@ -12,7 +12,7 @@
 
 .btn-main {
   color: #333;
-  background-color: #fcdc71; }
+  background-color: #ec7625; }
 
 .btn-light {
   color: #333;
@@ -28,14 +28,14 @@
 button[class^="btn-"]:hover,
 a[class^="btn-"]:hover,
 input[class^="btn-"]:hover {
-  background-color: #fcdc71;
+  background-color: #ec7625;
   color: #353535;
   font-weight: 600;
   font-style: italic;
   border-radius: 0px; }
 
 .bg-main {
-  background: #fcdc71;
+  background: #ec7625;
   color: black; }
 
 .bg-dark {
@@ -103,7 +103,7 @@ input[class^="btn-"]:hover {
   height: 3px;
   width: 90px;
   border-radius: 50%;
-  background: #fcdc71;
+  background: #ec7625;
   display: block;
   margin: 0 auto 1rem auto; }
 
@@ -216,8 +216,7 @@ input[class^="btn-"]:hover {
 
 .SERVICE {
   color: #53b2ff;
-  font-size: 1.3rem;
- }
+  font-size: 1.3rem; }
 
 * {
   margin: 0;
@@ -286,14 +285,14 @@ button {
   background-color: #1213131d;
   padding: 5px 25px;
   margin: 0 3px;
-  border: solid 2px #fcdc71;
+  border: solid 2px #ec7625;
   border-radius: 5px;
   font-family: "Montserrat", sans-serif;
   font-weight: bold; }
   button:hover {
-    background-color: black;
+    background-color: #ec7625;
     border-radius: 0px;
-    border: 2px solid white;
+    border: 1px solid #2d2d2d;
     cursor: pointer; }
 
 .navbar.top {
@@ -331,12 +330,12 @@ button {
     padding-bottom: 1rem;
     transition: border-color 0.6s; }
     .navbar a:hover {
-      color: #fcdc71;
+      color: #ec7625;
       opacity: none;
       font-size: 1.1rem;
       font-weight: 200; }
     .navbar a:current {
-      color: #fcdc71; }
+      color: #ec7625; }
   .navbar .nav-heading {
     font-family: "Montserrat", sans-serif;
     margin-top: 10px;
@@ -353,7 +352,7 @@ button {
     font-size: 1rem; }
 
 #header-home {
-  background: rgba(0, 0, 0, 0.4) url("../img/showcase.jpg") 90% 25%/100% no-repeat fixed;
+  background: rgba(0, 0, 0, 0.1) url("../img/showcase.jpg") 10% 25%/100% no-repeat fixed;
   background-blend-mode: darken;
   background-size: cover;
   height: 99vh;
@@ -361,17 +360,17 @@ button {
   #header-home .header-content {
     text-align: center;
     padding: 4%;
-    margin-top: 212px; }
+    margin-top: 185px; }
     #header-home .header-content h1 {
       font-size: 2.95rem;
       margin-top: 5rem; }
     #header-home .header-content .header-lighttxt {
-      color: #fcdc71;
+      color: #ec7625;
       font-size: 15px; }
     #header-home .header-content .btn-pro {
       text-decoration: underline; }
     #header-home .header-content .txt-type {
-      color: #fcdc71;
+      color: #ec7625;
       font-style: italic; }
     #header-home .header-content .specialize {
       font-size: 15px;
@@ -380,11 +379,11 @@ button {
       font-family: "Montserrat", sans-serif; }
 
 #header-inner {
-  background: rgba(0, 0, 0, 0) url("../img/showcase.jpg") 50% 60%/100% no-repeat fixed;
-  background-blend-mode: darken;
+  background: rgba(0, 0, 0, 0) url("../img/showcase.jpg") 10% 10%/100% no-repeat fixed;
+  /*background-blend-mode: darken;*/
   background-size: cover;
   height: 4.5rem;
-  border-bottom: 3px solid #fcdc71;
+  border-bottom: 3px solid #ec7625;
   margin-top: 0 auto; }
 
 #home-a .specials {
@@ -394,7 +393,7 @@ button {
   grid-template-columns: repeat(4, 1fr); }
 
 #home-a .fas {
-  color: #fcdc71;
+  color: #ec7625;
   padding-bottom: 0.4rem; }
 
 #home-b .stats {
@@ -428,7 +427,7 @@ button {
     top: 0;
     right: 0;
     font-size: 28px;
-    background: #277cb5;
+    background: #e6e2df;
     color: #2d2d2d;
     border-radius: 50%;
     height: 15px;
@@ -439,7 +438,7 @@ button {
   #home-c .process-icon {
     border-radius: 50%;
     background: #2d2d2d;
-    color: #8cc84b;
+    color: #ec7625;
     padding: 2rem;
     width: 70px;
     height: 70px;
@@ -448,14 +447,14 @@ button {
     position: relative;
     transition: all 1s; }
     #home-c .process-icon:hover {
-      background: #8cc84b;
+      background: #e6e0dd;
       color: #2d2d2d;
       width: 87px;
       height: 87px;
       line-height: 85px; }
       #home-c .process-icon:hover .process-step {
         background: #2d2d2d;
-        color: #277cb5;
+        color: #ec7625;
         transform: rotate(375deg); }
 
 #about-a {
@@ -469,7 +468,7 @@ button {
     grid-area: bioimage; }
   #about-a .bio {
     grid-area: bio;
-    border-left: 3px solid #fcdc71;
+    border-left: 3px solid #ec7625;
     padding: 0.8rem; }
   #about-a .award-1 {
     grid-area: aw1; }
@@ -480,7 +479,7 @@ button {
   #about-a .award-1 .fas,
   #about-a .award-2 .fas,
   #about-a .award-3 .fas {
-    color: #fcdc71; }
+    color: #ec7625; }
   #about-a .section-title {
     font-family: "Montserrat"; }
   #about-a .lead {
@@ -501,7 +500,7 @@ button {
     height: 310px; }
   #about-c .container-tech {
     height: 310px;
-    border-top: solid 3px #fcdc71;
+    border-top: solid 3px #ec7625;
     padding-top: 15px;
     margin-bottom: 100px; }
 
@@ -559,7 +558,7 @@ button {
 #contact-c h1 {
   text-align: center;
   font-size: 3rem;
-  color: #fcdc71;
+  color: #ec7625;
   font-family: "League Spartan" sans-serif;
   font-style: italic; }
 
@@ -587,7 +586,7 @@ button {
       text-align: center;
       padding: 0.5rem; }
       #main-footer .footer-content .social .fab:hover {
-        background: #fcdc71; }
+        background: #ec7625; }
     #main-footer .footer-content .fa-linkedin {
       color: #0e455e;
       background: #f09433;
@@ -720,7 +719,7 @@ button {
 @media (max-width: 640px) {
   #header-home {
     height: 100vh;
-    border-bottom: 2px solid #fcdc71;
+    border-bottom: 2px solid #ec7625;
     background-position: 50% 50%; }
     #header-home .navbar {
       flex-direction: column;
