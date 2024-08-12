@@ -455,7 +455,6 @@ button {
         "message message";
       grid-gap: 1.2rems;
       margin-bottom: 1.3rem;
-      padding: 0px 50px 0px 50px;
 
       //grid-areas
 
@@ -485,9 +484,9 @@ button {
 
       .message-input {
         grid-area: message;
-        height: 100px;
-        border-radius: 5px;
-        margin-top: 5px;
+        height: 125px;
+        border-radius: 10px;
+        margin-top: 10px;
         text-align: center;
       }
 
@@ -550,6 +549,10 @@ button {
     justify-content: space-between;
     height: 5rem;
     align-items: center;
+
+    p {
+      font-size: 13px;
+    }
 
     .social .fab {
       margin-right: 1rem;
