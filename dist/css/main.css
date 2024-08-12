@@ -349,7 +349,7 @@ button {
     margin: auto 20px;
     padding-top: 20px; }
   .navbar .about-nav {
-    font-size: 1rem; }
+    font-size: 15px; }
 
 #header-home {
   background: rgba(0, 0, 1, 0.6) url("../img/showcase.jpg") 10% 60%/100% no-repeat fixed;
