@@ -83,13 +83,13 @@ button {
   background-color: #1213131d;
   padding: 5px 25px;
   margin: 0 3px;
-  border: solid 2px #ec7625;
+  border: solid 2px #01a2e2;
   border-radius: 5px;
   font-family: "Montserrat", sans-serif;
   font-weight: bold;
 
   &:hover {
-    background-color: #ec7625;
+    background-color: #01a2e2;
     border-radius: 0px;
     border: 1px solid #2d2d2d;
     cursor: pointer;
@@ -178,7 +178,8 @@ button {
 
 #header {
   &-home {
-    background: rgba(0, 0, 0, 0.1) $bg-image 10% 25% / 100% no-repeat fixed;
+    background: rgba(0.1, 0.2, 0.5, 0.6) $bg-image 10% 60% / 100% no-repeat
+      fixed;
     background-blend-mode: darken;
     background-size: cover;
     height: 99vh;
@@ -197,7 +198,7 @@ button {
       }
 
       .header-lighttxt {
-        color: #ec7625;
+        color: #01a2e2;
         font-size: 15px;
       }
 
@@ -319,7 +320,7 @@ button {
       &-icon {
         border-radius: 50%;
         background: #2d2d2d;
-        color: #ec7625;
+        color: #01a2e2;
         padding: 2rem;
         width: 70px;
         height: 70px;
@@ -337,7 +338,7 @@ button {
 
           .process-step {
             background: #2d2d2d;
-            color: #ec7625;
+            color: #01a2e2;
             transform: rotate(375deg);
           }
         }
@@ -417,11 +418,11 @@ button {
     /***************TECHNOLOGIES IMAGE**********************/
     .logo2 {
       width: 100%;
-      height: 310px;
+      height: 280px;
     }
 
     .container-tech {
-      height: 310px;
+      height: 260px;
       border-top: solid 3px #ec7625;
       padding-top: 15px;
       margin-bottom: 100px;
@@ -454,31 +455,40 @@ button {
         "message message";
       grid-gap: 1.2rems;
       margin-bottom: 1.3rem;
+      padding: 0px 50px 0px 50px;
 
       //grid-areas
 
       .name-input {
         grid-area: name;
-        height: 30px;
+        height: 40px;
+        border-radius: 10px;
       }
 
       .subject-input {
         grid-area: subject;
-        height: 30px;
+        height: 40px;
+        border-radius: 10px;
       }
 
       .email-input {
         grid-area: email;
+        height: 40px;
+        border-radius: 10px;
       }
 
       .phone-input {
         grid-area: phone;
-        height: 30px;
+        height: 40px;
+        border-radius: 10px;
       }
 
       .message-input {
         grid-area: message;
-        height: 150px;
+        height: 100px;
+        border-radius: 5px;
+        margin-top: 5px;
+        text-align: center;
       }
 
       .text-input {
@@ -552,13 +562,13 @@ button {
       padding: 0.5rem;
 
       &:hover {
-        background: #ec7625;
+        background: #01a2e2;
       }
     }
 
     .fa-linkedin {
       color: #0e455e;
-      background: #f09433;
+      background: #01a2e2;
       background: -moz-linear-gradient(
         45deg,
         #f1f0ee 0%,
@@ -586,12 +596,12 @@ button {
     }
 
     .fa-instagram {
-      background: #f09433;
+      background: #01a2e2;
       background: -moz-linear-gradient(
         45deg,
         #f09433 0%,
         #e6683c 25%,
-        #dc2743 50%,
+        #ec9f06 50%,
         #cc2366 75%,
         #bc1888 100%
       );
@@ -600,45 +610,45 @@ button {
         #f09433 0%,
         #e6683c 25%,
         #dc2743 50%,
-        #cc2366 75%,
-        #bc1888 100%
+        #c38604 75%,
+        #c87304 100%
       );
       background: linear-gradient(
         45deg,
         #f09433 0%,
         #e6683c 25%,
-        #dc2743 50%,
+        #e48405 50%,
         #cc2366 75%,
         #bc1888 100%
       );
     }
 
-    .fa-twitter {
-      color: #1d9bf0;
-      background: #a7d4ec;
+    .fa-x-twitter {
+      color: #1a1d1f;
+      background: #1a1a1a;
       background: -moz-linear-gradient(
         45deg,
-        #f8f8f7 0%,
-        #81d2f7 25%,
-        #a8d6f9 50%,
-        #ebedef 75%,
-        #ddeaed 100%
+        #373735 0%,
+        #3f4041 25%,
+        #8f8f90 50%,
+        #616162 75%,
+        #0a0a0a 100%
       );
       background: -webkit-linear-gradient(
         45deg,
-        #fafaf9 0%,
-        #84cced 25%,
-        #9fccee 50%,
-        #ccdbe6 75%,
-        #c1e0e7 100%
+        #1d1d1c 0%,
+        #383839 25%,
+        #929597 50%,
+        #080808 75%,
+        #0b0b0b 100%
       );
       background: linear-gradient(
         45deg,
-        #f8f7f6 0%,
-        #a2dbf6 25%,
-        #a5d3f6 50%,
-        #cdd0d2 75%,
-        #b5dce4 100%
+        #d0cfcf 0%,
+        #3d3d3d 25%,
+        #b6b8b8 50%,
+        #343333 75%,
+        #141414 100%
       );
     }
 
@@ -655,19 +665,19 @@ button {
       );
       background: -webkit-linear-gradient(
         90deg,
-        #f1f0ee 0%,
-        #aca9a8 25%,
-        #757373 50%,
-        #74737494 75%,
-        #7978786c 100%
+        #0b0b0b 0%,
+        #141414 25%,
+        #f2f1f1 50%,
+        #0c0c0c94 75%,
+        #201f1f6c 100%
       );
       background: linear-gradient(
         90deg,
-        #f1f0ee 0%,
-        #aca9a8 25%,
-        #757373 50%,
+        #060606 0%,
+        #cecccc 25%,
+        #e1e0e0 50%,
         #807f7f94 75%,
-        #8f8d8d6c 100%
+        #0c0c0c6c 100%
       );
     }
   }
