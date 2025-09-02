@@ -83,13 +83,13 @@ button {
   background-color: #1213131d;
   padding: 5px 25px;
   margin: 0 3px;
-  border: solid 2px #01a2e2;
+  border: solid 2px #ee7724;
   border-radius: 5px;
   font-family: "Montserrat", sans-serif;
   font-weight: bold;
 
   &:hover {
-    background-color: #01a2e2;
+    background-color: #ee7724;
     border-radius: 0px;
     border: 1px solid #2d2d2d;
     cursor: pointer;
@@ -178,11 +178,11 @@ button {
 
 #header {
   &-home {
-    background: rgba(0.1, 0.2, 0.5, 0.6) $bg-image 10% 60% / 100% no-repeat
+    background: rgba(0.1, 0.2, 0.5, 0.9) $bg-image 10% 60% / 100% no-repeat
       fixed;
     background-blend-mode: darken;
     background-size: cover;
-    height: 99vh;
+    height: 500px;
     color: white;
 
     //header text-content
@@ -198,7 +198,7 @@ button {
       }
 
       .header-lighttxt {
-        color: #01a2e2;
+        color: #ee7724;
         font-size: 15px;
       }
 
