@@ -1195,9 +1195,6 @@ h4 {
   font-size: 1rem;
   padding-bottom: 3px;
 }
-.about-txt {
-  padding: 1px 1px 10px 1px;
-}
 #header-home {
   background: rgba(0, 0, 0, 0.4) url("../img/showcase.jpg") 80% 90%/100%
     no-repeat fixed;
@@ -1215,14 +1212,17 @@ h4 {
 .contact-button {
   width: 50%;
 }
-p.about-txt {
-  font-size: 14px !important;
-  margin-top: 1px !important;
-  line-height: 1;
-  padding-bottom: 1px !important;
-}
 p.item-text-category {
   font-size: 10px;
+}
+#about-a .about-txt {
+  font-family: "Montserrat";
+  font-size: 14px !important;
+  line-height: 2;
+  padding: 5px;
+  margin-top: 70px !important;
+  margin-bottom: 50px !important;
+  padding: 20px 20px 30px 20px;
 }
 
 @media (max-width: 380px) {
