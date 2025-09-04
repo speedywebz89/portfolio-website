@@ -16,7 +16,7 @@
 
 .btn-main {
   color: #333;
-  background-color: #ee7724;
+  background-color: #ee9352;
 }
 
 .btn-light {
@@ -35,7 +35,7 @@
 button[class^="btn-"]:hover,
 a[class^="btn-"]:hover,
 input[class^="btn-"]:hover {
-  background-color: #ee7724;
+  background-color: rgb(243, 144, 73);
   color: #353535;
   font-weight: 600;
   font-style: italic;
@@ -43,7 +43,7 @@ input[class^="btn-"]:hover {
 }
 
 .bg-main {
-  background: #ee7724;
+  background: #ee9352;
   color: white;
 }
 
@@ -129,7 +129,7 @@ input[class^="btn-"]:hover {
   height: 3px;
   width: 90px;
   border-radius: 50%;
-  background: #ee7724;
+  background: #ee9352;
   display: block;
   margin: 0 auto 1rem auto;
 }
@@ -348,13 +348,13 @@ button {
   background-color: #1213131d;
   padding: 5px 25px;
   margin: 0 3px;
-  border: solid 2px #ee7724;
+  border: solid 2px #ee9352;
   border-radius: 5px;
   font-family: "Montserrat", sans-serif;
   font-weight: bold;
 }
 button:hover {
-  background-color: #ee7724;
+  background-color: #ee9352;
   border-radius: 0px;
   border: 1px solid #2d2d2d;
   cursor: pointer;
@@ -402,13 +402,13 @@ button:hover {
   transition: border-color 0.6s;
 }
 .navbar a:hover {
-  color: #ee7724;
+  color: #ee9352;
   opacity: none;
   font-size: 1.1rem;
   font-weight: 200;
 }
 .navbar a:current {
-  color: #ee7724;
+  color: #ee9352;
 }
 .navbar .nav-heading {
   font-family: "Montserrat", sans-serif;
@@ -434,7 +434,7 @@ button:hover {
     no-repeat fixed;
   background-blend-mode: darken;
   background-size: cover;
-  height: 99vh;
+  height: 100vh;
   color: white;
 }
 #header-home .header-content {
@@ -447,14 +447,14 @@ button:hover {
   margin-top: 5rem;
 }
 #header-home .header-content .header-lighttxt {
-  color: #ee7724;
+  color: #ee9352;
   font-size: 15px;
 }
 #header-home .header-content .btn-pro {
   text-decoration: underline;
 }
 #header-home .header-content .txt-type {
-  color: #ee7724;
+  color: #ee9352;
   font-style: italic;
 }
 #header-home .header-content .specialize {
@@ -470,7 +470,7 @@ button:hover {
   /*background-blend-mode: darken;*/
   background-size: cover;
   height: 4.5rem;
-  border-bottom: 3px solid #ee7724;
+  border-bottom: 3px solid #ee9352;
   margin-top: 0 auto;
 }
 
@@ -482,7 +482,7 @@ button:hover {
 }
 
 #home-a .fas {
-  color: #ee7724;
+  color: #ee9352;
   padding-bottom: 0.4rem;
 }
 
@@ -538,7 +538,7 @@ button:hover {
 #home-c .process-icon {
   border-radius: 50%;
   background: #2d2d2d;
-  color: #ee7724;
+  color: #ee9352;
   padding: 2rem;
   width: 70px;
   height: 70px;
@@ -556,7 +556,7 @@ button:hover {
 }
 #home-c .process-icon:hover .process-step {
   background: #2d2d2d;
-  color: #ee7724;
+  color: #ee9352;
   transform: rotate(375deg);
 }
 
@@ -574,7 +574,7 @@ button:hover {
 }
 #about-a .bio {
   grid-area: bio;
-  border-left: 3px solid #ee7724;
+  border-left: 3px solid #ee9352;
   padding: 0.8rem;
 }
 #about-a .award-1 {
@@ -589,7 +589,7 @@ button:hover {
 #about-a .award-1 .fas,
 #about-a .award-2 .fas,
 #about-a .award-3 .fas {
-  color: #ee7724;
+  color: #ee9352;
 }
 #about-a .section-title {
   font-family: "Montserrat";
@@ -600,10 +600,11 @@ button:hover {
 }
 #about-a .about-txt {
   font-family: "Montserrat";
-  font-size: 20px;
-  line-height: 1.7;
+  font-size: 18px !important;
+  line-height: 2;
   padding: 5px;
-  margin-top: 100px;
+  margin-top: 70px !important;
+  margin-bottom: 50px !important;
   padding: 20px 20px 30px 20px;
 }
 
@@ -612,11 +613,11 @@ button:hover {
 }
 #about-c .logo2 {
   width: 100%;
-  height: 280px;
+  height: 375px;
 }
 #about-c .container-tech {
   height: 260px;
-  border-top: solid 3px #ec7625;
+  border-top: solid 3px #ee9352;
   padding-top: 15px;
   margin-bottom: 100px;
 }
@@ -696,7 +697,7 @@ button:hover {
 #contact-c h1 {
   text-align: center;
   font-size: 3rem;
-  color: #ee7724;
+  color: #ee9352;
   font-family: "League Spartan" sans-serif;
   font-style: italic;
 }
@@ -732,11 +733,11 @@ button:hover {
   padding: 0.5rem;
 }
 #main-footer .footer-content .social .fab:hover {
-  background: #ee7724;
+  background: #ee9352;
 }
 #main-footer .footer-content .fa-linkedin {
   color: #0e455e;
-  background: #ee7724;
+  background: #ee9352;
   background: -moz-linear-gradient(
     45deg,
     #f1f0ee 0%,
@@ -763,7 +764,7 @@ button:hover {
   );
 }
 #main-footer .footer-content .fa-instagram {
-  background: #ee7724;
+  background: #ee9352;
   background: -moz-linear-gradient(
     45deg,
     #f09433 0%,
@@ -848,7 +849,7 @@ button:hover {
 
 @media (max-width: 1650px) {
   p.about-txt {
-    font-size: 22px !important;
+    font-size: 20px !important;
     margin-top: 70px !important;
   }
 }
@@ -995,7 +996,7 @@ button:hover {
 @media (max-width: 640px) {
   #header-home {
     height: 100vh;
-    border-bottom: 2px solid #ee7724;
+    border-bottom: 2px solid #ee9352;
     background-position: 50% 50%;
   }
   #header-home .navbar {
@@ -1101,8 +1102,8 @@ button:hover {
     font-size: 13px;
   }
   #header-home .header-content .header-lighttxt {
-    color: #ee7724;
-    font-size: 10px;
+    color: #ee9352;
+    font-size: 13px;
   }
   .my-tech {
     font-size: 1.8rem;
@@ -1167,56 +1168,61 @@ button:hover {
     width: 100%;
     height: 100%;
   }
-  .contact-cta {
-    font-size: 24px !important;
-  }
-  /*NAVBAR AND HEADER ON SMALL DEVICES*/
-  #header-inner {
-    height: 5rem;
-    font-size: 0.5rem;
-    margin-left: -5px;
-  }
-  /*END OF NAVBAR AND HEADER ON SMALLER DEVICES*/
-  .about-p {
-    padding: 0px;
-  }
-  .lead {
-    padding: 1px;
-  }
-  h4 {
-    font-weight: 400;
-    font-size: 1rem;
-    padding-bottom: 3px;
-  }
-  .about-txt {
-    padding: 1px 1px 10px 1px;
-  }
-  #header-home {
-    background: rgba(0, 0, 0, 0.3) url("../img/showcase.jpg") 80% 90%/100%
-      no-repeat fixed;
-    background-blend-mode: darken;
-    background-size: cover;
-    color: white;
-  }
-  .my-tech {
-    margin: 0 auto;
-    font-size: 1.35rem;
-  }
-  .bio-image {
-    margin-bottom: 5px;
-  }
-  .contact-button {
-    width: 50%;
-  }
-  p.about-txt {
-    font-size: 14px !important;
-    margin-top: 10px !important;
-    line-height: 1.5;
-    padding-bottom: 1px !important;
-  }
-  p.item-text-category {
-    font-size: 10px;
-  }
+}
+#header-home .header-content .header-lighttxt {
+  color: #ee9352;
+  font-size: 14px;
+  font-weight: 600;
+}
+.contact-cta {
+  font-size: 24px !important;
+}
+/*NAVBAR AND HEADER ON SMALL DEVICES*/
+#header-inner {
+  height: 5rem;
+  font-size: 0.4rem;
+  margin-left: -5px;
+}
+/*END OF NAVBAR AND HEADER ON SMALLER DEVICES*/
+.about-p {
+  padding: 0px;
+}
+.lead {
+  padding: 1px;
+}
+h4 {
+  font-weight: 400;
+  font-size: 1rem;
+  padding-bottom: 3px;
+}
+.about-txt {
+  padding: 1px 1px 10px 1px;
+}
+#header-home {
+  background: rgba(0, 0, 0, 0.4) url("../img/showcase.jpg") 80% 90%/100%
+    no-repeat fixed;
+  background-blend-mode: darken;
+  background-size: cover;
+  color: white;
+}
+.my-tech {
+  margin: 0 auto;
+  font-size: 1.35rem;
+}
+.bio-image {
+  margin-bottom: 5px;
+}
+.contact-button {
+  width: 50%;
+}
+p.about-txt {
+  font-size: 14px !important;
+  margin-top: 1px !important;
+  line-height: 1;
+  padding-bottom: 1px !important;
+}
+p.item-text-category {
+  font-size: 10px;
 }
 
 @media (max-width: 380px) {

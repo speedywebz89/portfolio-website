@@ -83,7 +83,7 @@ button {
   background-color: #1213131d;
   padding: 5px 25px;
   margin: 0 3px;
-  border: solid 2px #ee7724;
+  border: solid 2px #3b322b;
   border-radius: 5px;
   font-family: "Montserrat", sans-serif;
   font-weight: bold;
@@ -131,7 +131,7 @@ button {
   }
 
   a {
-    text-decoration: none;
+    text-decoration: underline;
     color: rgb(255, 255, 255);
     text-transform: uppercase;
     font-family: "Montserrat";
